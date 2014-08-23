@@ -71,10 +71,10 @@ class Quickbooks(object):
 
     for req in self.queries:
       print 'extracting %s' %(req)
-      resp = self.make_request("%sRq") %(req)
+      resp = self.make_request(req + "Rq")
       # Make sure you have write access to the dir
       if filedir is not None and os.path.isdir(filedir):
-        with open(os.path.join(filedir, "%s"), 'w+') %(req.lower() + ".xml") as f:
+        with open(os.path.join(filedir, req.lower() + ".xml"), 'w+') as f:
           f.write(resp)
       else:
         print resp

@@ -6,7 +6,7 @@ Use this to connect to your quickbooks and read data.
 ###Requirments:
 
 - Windows #ARGGGHH !
-- win32com
+- win32com IMPORTANT !
 - Quickbooks > Pro Version, Enterprise edition
 - Administrator account
 
@@ -19,14 +19,16 @@ go into the folder and run python setup.py install
 in your code write this:
 
 ```
-import quickbooks
+from quickbooks import Quickbooks
 
-quickbooks(qb_file='path_to_your_file').get_all()
+Quickbooks(qb_file='path_to_your_file').get_all()
 ```
 
 it does more than that read the source.
 
 This is it, I will add more when my client ask me more ;)
+
+Please note this will take longtime to load all your data.
 
 Plan :
 - Want to be able to create, remove and modify data
