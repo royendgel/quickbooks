@@ -3,17 +3,11 @@ import logging
 # Using this instead of my favorite lxml
 import xml.etree.ElementTree as ET
 from request_creator import RequestCreator
+import win32com.client
 
 class Quickbooks:
   def __init__(self, qb_file=None, stop_on_error=True):
     # Absolute path to your quickbooks
-    self.windows = False
-    try:
-      import win32com.client
-      self.windows = True
-    except:
-      logging.exception("No Win32com mayebe not a windows machine ?")
-    
     self.qb_file = qb_file
     self.app_name = "Quickbooks Python"
     self.ticket = None
