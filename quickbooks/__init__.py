@@ -1,14 +1,23 @@
 import os
+import logging
 # Using this instead of my favorite lxml
 import xml.etree.ElementTree as ET
-import win32com.client
+from request_creator import RequestCreator
 
-class Quickbooks(object):
+class Quickbooks:
   def __init__(self, qb_file=None, stop_on_error=True):
     # Absolute path to your quickbooks
+    self.windows = False
+    try:
+      import win32com.client
+      self.windows = True
+    except:
+      logging.exception("No Win32com mayebe not a windows machine ?")
+    
     self.qb_file = qb_file
     self.app_name = "Quickbooks Python"
     self.ticket = None
+    self.rc = RequestCreator()
 
     # This are important for me. using upto version 6 of the SDK.
     # You can check the version suported very easy by doing:
@@ -70,7 +79,7 @@ class Quickbooks(object):
 
     session = self.__create_object()
     try:
-      q = self.__create_name(object_name=query, operation='', method='')
+      q = self.rc.create_name(object_name=query, operation='', method='')
       qbxml_query = """
       <?qbxml version="6.0"?>
       <QBXML>
@@ -96,7 +105,7 @@ class Quickbooks(object):
 
     for req in self.queries:
       print 'extracting %s' %(req)
-      resp = self.make_request(query=self.__create_name(req, \
+      resp = self.make_request(query=self.rc.create_name(req, \
       operation='query', method='rq'))
 
       # Make sure you have write access to the dir
@@ -109,5 +118,5 @@ class Quickbooks(object):
     print "Finished..!"
 
   def get(self, query):
-    q = self.__create_name(query, operation='query', method='rq')
+    q = self.rc.create_name(query, operation='query', method='rq')
     return self.make_request(q)
