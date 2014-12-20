@@ -72,6 +72,7 @@ class Quickbooks:
   def make_request(self, query='CustomerQuery'):
 
     session = self.__create_object()
+    resp = None
     try:
       q = self.rc.create_name(object_name=query, operation='', method='')
       qbxml_query = """
