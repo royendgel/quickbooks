@@ -3,12 +3,18 @@ Quickbooks Python
 
 Use this to connect to your quickbooks and read data.
 
-###Requirments:
+###Requirements:
 
-- Windows #ARGGGHH !
+- Windows (32 bit recommended)
 - win32com IMPORTANT !
 - Quickbooks > Pro Version, Enterprise edition
 - Administrator account
+- Python (32BIT not 64BIT)
+
+
+###Optional
+
+- xmltodict
 
 To install :
 - clone this repo
