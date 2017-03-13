@@ -1,12 +1,5 @@
 import unittest
 
-            ("ItemReceipt", 6.0),
-            ("Item", 6.0),
-            ("Estimate", 6.0),
-            ("Class", 6.0),
-            ('Estimate', 6.0),
-            ('Employee', 6.0),
-            ('ItemPayment', 6.0),
 class CustomerTestCase(unittest.TestCase):
     def test_add_customer(self):
         pass
