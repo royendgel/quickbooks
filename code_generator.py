@@ -71,7 +71,7 @@ class QuickBooksDocumentedAPI:
         pass
 
     def write_resource(self):
-        """Replaces resource.py with new classes"""
+        """Creates a new file including all resources"""
         with open('quickbooks/resource.py', 'w+') as f:
             f.write("""# Automatically generated from script.\n\n""")
             f.write("from recources_super_classes import CreateMixin, DeleteMixin, Resource, RetriveMixin, "
