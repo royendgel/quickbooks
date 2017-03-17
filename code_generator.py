@@ -1,3 +1,5 @@
+from collections import OrderedDict
+
 import xmltodict
 import json
 import requests
@@ -62,9 +64,28 @@ class QuickBooksDocumentedAPI:
         return resources
 
     def get_resource_fields(self, resource):
-        fields = requests.get(self.build_request_url(resource))
-        for element in fields.json()['elements']:
-            print element['xmlName']
+        # fields = requests.get(self.build_request_url(resource))
+        with open('CustomerAddRq.json', 'r') as f:
+            fields = json.load(f)
+            json.dumps(fields, indent=4)
+            resource_field = OrderedDict()
+
+            self.recurse(fields)
+
+    def __element_walker(self, elements):
+        # A nested walker
+        if 'elements' in elements:
+            self.__element_walker(elements['elements'])
+
+    def recurse(self, d):
+        if type(d) == type([]):
+            for k in d:
+                self.recurse(d[k])
+        elif 'elements' in d:
+            print 'xmlType'
+        else:
+            if 'elements' in d:
+                print 'xmlType'
 
     def write_objects_models(self):
         """Replaces objects_models.py with a new set of objects."""
@@ -103,11 +124,33 @@ class QuickBooksDocumentedAPI:
         """Rewrites the whole software with new objects and resources."""
         pass
 
+    def write_test_code(self):
+        """Creates a new file including all tests"""
+        with open('tests/generated_tests.py', 'w+') as f:
+            f.write("""# Automatically generated from script.\n\n""")
+            f.write("import unittest\n\n\n")
+
+            resources = self.get_resources()
+            for resource in resources:
+                resource_name = resource[0]
+                resource_set = resources[resource]
+                if resource_name != None:
+                    methods = resource_set['methods']
+                    f.write("""class {}TestCase(unittest.TestCase):\n""".format(resource_name))
+                    for method in methods:
+                        f.write("    def test_{}(self):\n".format(method.lower()))
+                        f.write("        pass")
+                        if method != methods[-1]:
+                            f.write('\n\n')
+
+                    f.write("\n\n\n")  # End of the line some white spaces
+
 
 if __name__ == '__main__':
     qb = QuickBooksDocumentedAPI()
     # print qb.get_main_site()
     # qb.get_resources()
-    # qb.get_resource_fields('ARRefundCreditCardAdd')
+    qb.get_resource_fields('CustomerAdd')
     # qb.write_objects_models()
-    qb.write_resource()
+    # qb.write_resource()
+    # qb.write_test_code()
