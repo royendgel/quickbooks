@@ -1,5 +1,6 @@
 import unittest
 
+
 class CustomerTestCase(unittest.TestCase):
     def test_add_customer(self):
         pass
@@ -33,6 +34,7 @@ class HostTestCase(unittest.TestCase):
 class ReceivePaymentTestCase(unittest.TestCase):
     def test_add_customer(self):
         pass
+
 
 class ToDoTestCase(unittest.TestCase):
     def test_add_customer(self):
@@ -102,7 +104,6 @@ class ClassTestCase(unittest.TestCase):
 class EmployeeTestCase(unittest.TestCase):
     def test_add_customer(self):
         pass
-
 
 
 if __name__ == '__main__':
