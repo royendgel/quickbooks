@@ -6,21 +6,29 @@ class Resource:
     object_map = []
 
 
-class CreateMixin:
+class CreateMixin(Resource):
+    def __init__(self):
+        pass
     def create(self):
         pass
 
 
-class RetriveMixin:
+class RetriveMixin(Resource):
+    def __init__(self):
+        pass
     def retrieve(self):
         pass
 
 
-class UpdateMixin:
+class UpdateMixin(Resource):
+    def __init__(self):
+        pass
     def update(self):
         pass
 
 
-class DeleteMixin:
+class DeleteMixin(Resource):
+    def __init__(self):
+        pass
     def delete(self):
         pass
