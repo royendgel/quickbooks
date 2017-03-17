@@ -1,5 +1,6 @@
 from collections import OrderedDict
 from xml.sax.saxutils import escape
+from resource import Bill, Customer
 
 import os
 import logging
