@@ -64,28 +64,41 @@ class QuickBooksDocumentedAPI:
         return resources
 
     def get_resource_fields(self, resource):
+        """Runs through the elements in resources, this elements can be nested
+        This function should handle all depths.
+        """
+
         # fields = requests.get(self.build_request_url(resource))
         with open('CustomerAddRq.json', 'r') as f:
-            fields = json.load(f)
-            json.dumps(fields, indent=4)
-            resource_field = OrderedDict()
+            elements = json.JSONDecoder(object_pairs_hook=OrderedDict).decode(f.read())
+            # print json.dumps(elements, indent=4)
+            safe_items = ['elements', 'xmlName']
+            delete_keys = ['Width', 'TopLeftX', 'supports', 'US', 'OE', 'CA', 'UK', 'AU', 'fcName', 'xmlNameHtml',
+                           'Height','fcNameHtml', 'MasterImage', 'xmlType', 'fcType', 'required', 'TopLeftY', ]
+            data = OrderedDict()
 
-            self.recurse(fields)
+            print self.recursive(elements['elements'], new_data=data)
 
-    def __element_walker(self, elements):
-        # A nested walker
-        if 'elements' in elements:
-            self.__element_walker(elements['elements'])
 
-    def recurse(self, d):
-        if type(d) == type([]):
-            for k in d:
-                self.recurse(d[k])
-        elif 'elements' in d:
-            print 'xmlType'
+
+    def recursive(self, data, new_data):
+
+        if isinstance(data, type([])):
+            for item in data:
+                self.recursive(item, new_data)
+
+        elif isinstance(data, type(OrderedDict())):
+            for item in data:
+                if 'elements' == item:
+                    self.recursive(data[item], new_data)
+                    
+
         else:
-            if 'elements' in d:
-                print 'xmlType'
+            pass
+            # print data
+
+
+        return new_data
 
     def write_objects_models(self):
         """Replaces objects_models.py with a new set of objects."""
@@ -118,7 +131,7 @@ class QuickBooksDocumentedAPI:
                     for version in versions:
                         f.write("""    {} = {}\n""".format(version, versions[version]))
 
-                f.write("\n\n")  # End of the line some white spaces
+                f.write("\n\n")  # End of the line some blank lines
 
     def write_code(self):
         """Rewrites the whole software with new objects and resources."""
