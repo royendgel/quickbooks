@@ -74,89 +74,103 @@ class QuickBooksDocumentedAPI:
             # print json.dumps(elements, indent=4)
             safe_items = ['elements', 'xmlName']
             delete_keys = ['Width', 'TopLeftX', 'supports', 'US', 'OE', 'CA', 'UK', 'AU', 'fcName', 'xmlNameHtml',
-                           'Height','fcNameHtml', 'MasterImage', 'xmlType', 'fcType', 'required', 'TopLeftY', ]
+                           'Height', 'fcNameHtml', 'MasterImage', 'xmlType', 'fcType', 'required', 'TopLeftY', ]
             data = OrderedDict()
 
-            print self.recursive(elements['elements'], new_data=data)
-
-
+            with open('output.json', 'w+') as f:
+                f.write(json.dumps(self.recursive(elements['elements'], new_data=data), indent=4))
 
     def recursive(self, data, new_data):
 
         if isinstance(data, type([])):
             for item in data:
-                self.recursive(item, new_data)
+                if item:
+                    if isinstance(item, type(OrderedDict())):
+                        self.recursive(item, new_data)
+
+            if 'elements' in data:
+                self.recursive(data, new_data)
+
+
+
 
         elif isinstance(data, type(OrderedDict())):
+            safe_items = ['elements', 'xmlName']
+
+            # Let's delete what we don't want !
             for item in data:
-                if 'elements' == item:
-                    self.recursive(data[item], new_data)
-                    
+                if item not in safe_items:
+                    del data[item]
 
-        else:
-            pass
-            # print data
+                else:
+                    if not isinstance(data[item], type(unicode())):
+                        self.recursive(data[item], new_data)
+                    else:
+                        pass
+
+        return data
 
 
-        return new_data
+def write_objects_models(self):
+    """Replaces objects_models.py with a new set of objects."""
+    pass
 
-    def write_objects_models(self):
-        """Replaces objects_models.py with a new set of objects."""
-        pass
 
-    def write_resource(self):
-        """Creates a new file including all resources"""
-        with open('quickbooks/resource.py', 'w+') as f:
-            f.write("""# Automatically generated from script.\n\n""")
-            f.write("from recources_super_classes import CreateMixin, DeleteMixin, Resource, RetriveMixin, "
-                    "UpdateMixin\n\n\n")
+def write_resource(self):
+    """Creates a new file including all resources"""
+    with open('quickbooks/resource.py', 'w+') as f:
+        f.write("""# Automatically generated from script.\n\n""")
+        f.write("from recources_super_classes import CreateMixin, DeleteMixin, Resource, RetriveMixin, "
+                "UpdateMixin\n\n\n")
 
-            resources = self.get_resources()
-            for resource in resources:
-                resource_name = resource[0]
-                resource_set = resources[resource]
-                if resource_name != None:
-                    methods = resource_set['methods']
-                    class_mixin = []
-                    class_methods_mapper = {'Add': 'CreateMixin', 'Mod': 'UpdateMixin', 'Query': 'RetriveMixin'}
-                    for method in methods:
-                        if method in class_methods_mapper:
-                            class_mixin.append(class_methods_mapper[method])
+        resources = self.get_resources()
+        for resource in resources:
+            resource_name = resource[0]
+            resource_set = resources[resource]
+            if resource_name != None:
+                methods = resource_set['methods']
+                class_mixin = []
+                class_methods_mapper = {'Add': 'CreateMixin', 'Mod': 'UpdateMixin', 'Query': 'RetriveMixin'}
+                for method in methods:
+                    if method in class_methods_mapper:
+                        class_mixin.append(class_methods_mapper[method])
 
-                    methods = ", ".join('"{0}"'.format(method.lower()) for method in methods)
-                    class_mixin = ", ".join(class_mixin)
-                    f.write("""class {}({}):\n""".format(resource_name, class_mixin))
-                    f.write("""    methods = [{}]\n""".format(methods))
-                    versions = resource_set['versions']
-                    for version in versions:
-                        f.write("""    {} = {}\n""".format(version, versions[version]))
+                methods = ", ".join('"{0}"'.format(method.lower()) for method in methods)
+                class_mixin = ", ".join(class_mixin)
+                f.write("""class {}({}):\n""".format(resource_name, class_mixin))
+                f.write("""    methods = [{}]\n""".format(methods))
+                versions = resource_set['versions']
+                for version in versions:
+                    f.write("""    {} = {}\n""".format(version, versions[version]))
 
-                f.write("\n\n")  # End of the line some blank lines
+            f.write("\n\n")  # End of the line some blank lines
 
-    def write_code(self):
-        """Rewrites the whole software with new objects and resources."""
-        pass
 
-    def write_test_code(self):
-        """Creates a new file including all tests"""
-        with open('tests/generated_tests.py', 'w+') as f:
-            f.write("""# Automatically generated from script.\n\n""")
-            f.write("import unittest\n\n\n")
+def write_code(self):
+    """Rewrites the whole software with new objects and resources."""
+    pass
 
-            resources = self.get_resources()
-            for resource in resources:
-                resource_name = resource[0]
-                resource_set = resources[resource]
-                if resource_name != None:
-                    methods = resource_set['methods']
-                    f.write("""class {}TestCase(unittest.TestCase):\n""".format(resource_name))
-                    for method in methods:
-                        f.write("    def test_{}(self):\n".format(method.lower()))
-                        f.write("        pass")
-                        if method != methods[-1]:
-                            f.write('\n\n')
 
-                    f.write("\n\n\n")  # End of the line some white spaces
+def write_test_code(self):
+    """Creates a new file including all tests"""
+    with open('tests/generated_tests.py', 'w+') as f:
+        f.write("""# Automatically generated from script.\n\n""")
+        f.write("import unittest\n\n\n")
+
+        resources = self.get_resources()
+        for resource in resources:
+            resource_name = resource[0]
+            resource_set = resources[resource]
+            if resource_name != None:
+                methods = resource_set['methods']
+                f.write("""class {}TestCase(unittest.TestCase):\n""".format(resource_name))
+                for method in methods:
+                    f.write("    def test_{}(self):\n".format(method.lower()))
+                    f.write("        pass")
+                    if method != methods[-1]:
+                        f.write('\n\n')
+
+                f.write("\n\n\n")  # End of the line some white spaces
 
 
 if __name__ == '__main__':

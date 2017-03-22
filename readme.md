@@ -6,7 +6,7 @@ This supports all transaction type!
 ###Requirements:
 
 - Windows (32 bit recommended) if you want to work without the qwc
-- win32com IMPORTANT ! if you want to work directly without qwc
+- win32com IMPORTANT ! if you want to work directly without qwc `pip install pywin32`
 - Quickbooks > Pro Version, Enterprise edition
 - Administrator account
 - Python (32BIT not 64BIT)
