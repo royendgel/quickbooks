@@ -1,4 +1,7 @@
-from old_code import Quickbooks
+try:
+    from old_code import Quickbooks
+except:
+    pass
 
 from resource import UpdateMixin, RetriveMixin, Resource, DeleteMixin, Account, AccountTaxLineInfo, AgingReport, \
     ARRefundCreditCard, BarCode, Bill, BillingRate, BillPaymentCheck, BillPaymentCreditCard, BillToPay, \

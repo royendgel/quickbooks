@@ -68,31 +68,25 @@ class QuickBooksDocumentedAPI:
         This function should handle all depths.
         """
 
-        # fields = requests.get(self.build_request_url(resource))
-        with open('CustomerAddRq.json', 'r') as f:
-            elements = json.JSONDecoder(object_pairs_hook=OrderedDict).decode(f.read())
-            # print json.dumps(elements, indent=4)
-            safe_items = ['elements', 'xmlName']
-            delete_keys = ['Width', 'TopLeftX', 'supports', 'US', 'OE', 'CA', 'UK', 'AU', 'fcName', 'xmlNameHtml',
-                           'Height', 'fcNameHtml', 'MasterImage', 'xmlType', 'fcType', 'required', 'TopLeftY', ]
-            data = OrderedDict()
+        fields = requests.get(self.build_request_url(resource))
+        elements = json.JSONDecoder(object_pairs_hook=OrderedDict).decode(fields.content)
+        # print json.dumps(elements, indent=4)
+        safe_items = ['elements', 'xmlName']
+        delete_keys = ['Width', 'TopLeftX', 'supports', 'US', 'OE', 'CA', 'UK', 'AU', 'fcName', 'xmlNameHtml',
+                       'Height', 'fcNameHtml', 'MasterImage', 'xmlType', 'fcType', 'required', 'TopLeftY', ]
+        data = OrderedDict()
+        return self.finisher(self.build_new_ordered_dict(self.recursive(elements['elements'])))
 
-            with open('output.json', 'w+') as f:
-                f.write(json.dumps(self.recursive(elements['elements'], new_data=data), indent=4))
-
-    def recursive(self, data, new_data):
+    def recursive(self, data):
 
         if isinstance(data, type([])):
             for item in data:
                 if item:
                     if isinstance(item, type(OrderedDict())):
-                        self.recursive(item, new_data)
+                        self.recursive(item)
 
             if 'elements' in data:
-                self.recursive(data, new_data)
-
-
-
+                self.recursive(data)
 
         elif isinstance(data, type(OrderedDict())):
             safe_items = ['elements', 'xmlName']
@@ -102,82 +96,155 @@ class QuickBooksDocumentedAPI:
                 if item not in safe_items:
                     del data[item]
 
+                elif item in safe_items:
+                    if item == 'elements':
+                        for element in data['elements']:
+                            if isinstance(element, type(OrderedDict())):
+                                self.recursive(element)
+                    elif item == 'xmlName':
+                        pass
+
+                    else:
+                        pass
+
                 else:
                     if not isinstance(data[item], type(unicode())):
-                        self.recursive(data[item], new_data)
+                        self.recursive(data[item])
                     else:
                         pass
 
         return data
 
+    def finisher(self, data):
+        if isinstance(data, type([])):
+            for item in data:
+                if item:
+                    if isinstance(item, type(OrderedDict())):
+                        self.finisher(self.build_new_ordered_dict(item))
 
-def write_objects_models(self):
-    """Replaces objects_models.py with a new set of objects."""
-    pass
+            if 'elements' in data:
+                self.finisher(self.build_new_ordered_dict(data))
 
+        elif isinstance(data, type(OrderedDict())):
+            for item in data:
+                if item == 'elements':
+                    for element in data['elements']:
+                        if isinstance(element, type(OrderedDict())):
+                            self.finisher(self.build_new_ordered_dict(element))
 
-def write_resource(self):
-    """Creates a new file including all resources"""
-    with open('quickbooks/resource.py', 'w+') as f:
-        f.write("""# Automatically generated from script.\n\n""")
-        f.write("from recources_super_classes import CreateMixin, DeleteMixin, Resource, RetriveMixin, "
-                "UpdateMixin\n\n\n")
+        return data
 
-        resources = self.get_resources()
-        for resource in resources:
-            resource_name = resource[0]
-            resource_set = resources[resource]
-            if resource_name != None:
-                methods = resource_set['methods']
-                class_mixin = []
-                class_methods_mapper = {'Add': 'CreateMixin', 'Mod': 'UpdateMixin', 'Query': 'RetriveMixin'}
-                for method in methods:
-                    if method in class_methods_mapper:
-                        class_mixin.append(class_methods_mapper[method])
+    def build_new_ordered_dict(self, data):
+        new_dict = OrderedDict()
+        for item in data:
+            if 'elements' in data:
+                for el in data['elements']:
+                    new_dict.update([(el['xmlName'], el)])
+            elif isinstance(item, type(OrderedDict())):
+                new_dict.update(item)
+            elif item == 'xmlName':
+                # print data[item]
+                new_dict.update([(data[item], '')])
+            else:
+                # print data[item]
+                pass
 
-                methods = ", ".join('"{0}"'.format(method.lower()) for method in methods)
-                class_mixin = ", ".join(class_mixin)
-                f.write("""class {}({}):\n""".format(resource_name, class_mixin))
-                f.write("""    methods = [{}]\n""".format(methods))
-                versions = resource_set['versions']
-                for version in versions:
-                    f.write("""    {} = {}\n""".format(version, versions[version]))
+        return new_dict
+
+    def write_objects_models(self):
+        """Replaces objects_models.py with a new set of objects."""
+        all_resources = self.get_resources()
+        # print all_resources
+        from quickbooks import resource
+        data = []
+        for entry in all_resources:
+            if hasattr(resource, entry[0]):
+                try:
+                    fields = self.get_resource_fields("{}Query".format(entry[0]))
+                    # data.append("{}Model={}".format(entry[0], json.dumps(fields, indent=4)))
+                    data.append("{}Model={}".format(entry[0], fields))
+                except:
+                    pass
+        with open('quickbooks/objects_models.py', 'w+') as f:
+            f.write("from collections import OrderedDict\n")
+            for entry in data:
+                f.write(entry)
+                f.write("\n")
+
+    def write_resource(self):
+        """Creates a new file including all resources"""
+        with open('quickbooks/resource.py', 'w+') as f:
+            f.write("""# Automatically generated from script.\n\n""")
+            f.write("from recources_super_classes import CreateMixin, DeleteMixin, Resource, RetriveMixin, "
+                    "UpdateMixin\n\n\n")
+
+            resources = self.get_resources()
+            for resource in resources:
+                resource_name = resource[0]
+                resource_set = resources[resource]
+                if resource_name != None:
+                    methods = resource_set['methods']
+                    class_mixin = []
+                    class_methods_mapper = {'Add': 'CreateMixin', 'Mod': 'UpdateMixin', 'Query': 'RetriveMixin'}
+                    for method in methods:
+                        if method in class_methods_mapper:
+                            class_mixin.append(class_methods_mapper[method])
+
+                    methods = ", ".join('"{0}"'.format(method.lower()) for method in methods)
+                    class_mixin = ", ".join(class_mixin)
+                    f.write("""class {}({}):\n""".format(resource_name, class_mixin))
+                    f.write("""    methods = [{}]\n""".format(methods))
+                    versions = resource_set['versions']
+                    for version in versions:
+                        f.write("""    {} = {}\n""".format(version, versions[version]))
+
+                f.write("\n\n")  # End of the line some blank lines
+
+    def write_resource_list(self):
+        """Creates a new file including all resources"""
+        with open('quickbooks/resource_list.py', 'w+') as f:
+            f.write("""# Automatically generated from script.\n\n""")
+            resources = self.get_resources()
+            f.write("resource_list = [")
+            for resource in resources:
+                resource_name = resource[0]
+                f.write("""'{}',\n""".format(resource_name))
+            f.write("]")
 
             f.write("\n\n")  # End of the line some blank lines
 
+    def write_code(self):
+        """Rewrites the whole software with new objects and resources."""
+        pass
 
-def write_code(self):
-    """Rewrites the whole software with new objects and resources."""
-    pass
+    def write_test_code(self):
+        """Creates a new file including all tests"""
+        with open('tests/generated_tests.py', 'w+') as f:
+            f.write("""# Automatically generated from script.\n\n""")
+            f.write("import unittest\n\n\n")
 
-
-def write_test_code(self):
-    """Creates a new file including all tests"""
-    with open('tests/generated_tests.py', 'w+') as f:
-        f.write("""# Automatically generated from script.\n\n""")
-        f.write("import unittest\n\n\n")
-
-        resources = self.get_resources()
-        for resource in resources:
-            resource_name = resource[0]
-            resource_set = resources[resource]
-            if resource_name != None:
-                methods = resource_set['methods']
-                f.write("""class {}TestCase(unittest.TestCase):\n""".format(resource_name))
-                for method in methods:
-                    f.write("    def test_{}(self):\n".format(method.lower()))
-                    f.write("        pass")
-                    if method != methods[-1]:
-                        f.write('\n\n')
-
-                f.write("\n\n\n")  # End of the line some white spaces
+            resources = self.get_resources()
+            for resource in resources:
+                resource_name = resource[0]
+                resource_set = resources[resource]
+                if resource_name != None:
+                    methods = resource_set['methods']
+                    f.write("""class {}TestCase(unittest.TestCase):\n""".format(resource_name))
+                    for method in methods:
+                        f.write("    def test_{}(self):\n".format(method.lower()))
+                        f.write("        pass")
+                        if method != methods[-1]:
+                            f.write('\n\n')
+                    f.write("\n\n\n")  # End of the line some white spaces
 
 
 if __name__ == '__main__':
     qb = QuickBooksDocumentedAPI()
     # print qb.get_main_site()
     # qb.get_resources()
-    qb.get_resource_fields('CustomerAdd')
+    # qb.get_resource_fields('CustomerAdd')
     # qb.write_objects_models()
     # qb.write_resource()
     # qb.write_test_code()
+    # qb.write_resource_list()
+    qb.write_objects_models()
