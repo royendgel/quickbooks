@@ -159,12 +159,16 @@ class QuickBooksDocumentedAPI:
         data = []
         for entry in all_resources:
             if hasattr(resource, entry[0]):
-                try:
-                    fields = self.get_resource_fields("{}Query".format(entry[0]))
-                    # data.append("{}Model={}".format(entry[0], json.dumps(fields, indent=4)))
-                    data.append("{}Model={}".format(entry[0], fields))
-                except:
-                    pass
+                for method in self.methods:
+                    try:
+                        res = "{}{}".format(entry[0], method.title())
+                        print res
+                        fields = self.get_resource_fields(res)
+                        print fields
+                        #     # data.append("{}Model={}".format(entry[0], json.dumps(fields, indent=4)))
+                        data.append("{}{}Model={}".format(entry[0], method.title(), fields))
+                    except Exception as e:
+                        print e
         with open('quickbooks/objects_models.py', 'w+') as f:
             f.write("from collections import OrderedDict\n")
             for entry in data:
