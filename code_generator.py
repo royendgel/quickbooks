@@ -67,15 +67,18 @@ class QuickBooksDocumentedAPI:
         """Runs through the elements in resources, this elements can be nested
         This function should handle all depths.
         """
-
-        fields = requests.get(self.build_request_url(resource))
+        url = self.build_request_url(resource)
+        # print url
+        fields = requests.get(url)
         elements = json.JSONDecoder(object_pairs_hook=OrderedDict).decode(fields.content)
         # print json.dumps(elements, indent=4)
         safe_items = ['elements', 'xmlName']
         delete_keys = ['Width', 'TopLeftX', 'supports', 'US', 'OE', 'CA', 'UK', 'AU', 'fcName', 'xmlNameHtml',
                        'Height', 'fcNameHtml', 'MasterImage', 'xmlType', 'fcType', 'required', 'TopLeftY', ]
         data = OrderedDict()
-        return self.finisher(self.build_new_ordered_dict(self.recursive(elements['elements'])))
+
+        new_data = self.build_new_ordered_dict(self.recursive(elements['elements']))
+        return self.finisher(new_data)
 
     def recursive(self, data):
 
@@ -116,6 +119,7 @@ class QuickBooksDocumentedAPI:
         return data
 
     def finisher(self, data):
+
         if isinstance(data, type([])):
             for item in data:
                 if item:
@@ -128,9 +132,10 @@ class QuickBooksDocumentedAPI:
         elif isinstance(data, type(OrderedDict())):
             for item in data:
                 if item == 'elements':
-                    for element in data['elements']:
+                    for element in data[item]:
                         if isinstance(element, type(OrderedDict())):
-                            self.finisher(self.build_new_ordered_dict(element))
+                            self.build_new_ordered_dict(element)
+                            # self.finisher(self.build_new_ordered_dict(element))
 
         return data
 
@@ -139,7 +144,8 @@ class QuickBooksDocumentedAPI:
         for item in data:
             if 'elements' in data:
                 for el in data['elements']:
-                    new_dict.update([(el['xmlName'], el)])
+                    if el:
+                        new_dict.update([(el['xmlName'], el)])
             elif isinstance(item, type(OrderedDict())):
                 new_dict.update(item)
             elif item == 'xmlName':
@@ -154,6 +160,7 @@ class QuickBooksDocumentedAPI:
     def write_objects_models(self):
         """Replaces objects_models.py with a new set of objects."""
         all_resources = self.get_resources()
+        # all_resources = [('Check', None)]
         # print all_resources
         from quickbooks import resource
         data = []
@@ -162,9 +169,7 @@ class QuickBooksDocumentedAPI:
                 for method in self.methods:
                     try:
                         res = "{}{}".format(entry[0], method.title())
-                        print res
                         fields = self.get_resource_fields(res)
-                        print fields
                         #     # data.append("{}Model={}".format(entry[0], json.dumps(fields, indent=4)))
                         data.append("{}{}Model={}".format(entry[0], method.title(), fields))
                     except Exception as e:

@@ -103,11 +103,17 @@ def get_all_queries():
 
 ### Merge two company
 I would recommended to merge the smaller into the bigger one.
-Thinks to do before :
+Things to do before :
 - Make backup
 - Make a report of your chart of account
 - Count the number of targets (F2 key)
-- ![First time running](docs/permission_screenshot_4.png)
+- ![Count the number of the target](docs/permission_screenshot_4.png)
+
+Activate the debug option below, the script will try to retrieve any error in the log file.
+
+Tested transaction (merge) will write and skip duplicated (continue on error):
+-
+-
 ####Problems and tips when dealing with win32com
 to debug quickbooks go to c:\programData\intuit\quickbooks\QBSDK.ItemNonInventory
 add this :
@@ -121,3 +127,6 @@ SdkAccelerator=N`
 If your using the win32com make sure you have the 32bit version of the package
 if you get a something like could not start quickbooks with an error  -2147220472
 make sure the quickbooks company file path is correct.
+
+BoolType is 1 for true, 0 for false or lowercase str true or false
+

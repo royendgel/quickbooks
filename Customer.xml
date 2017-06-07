@@ -1,0 +1,2936 @@
+<?xml version="1.0" ?>
+<QBXML>
+<QBXMLMsgsRs>
+<CustomerQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+<CustomerRet>
+<ListID>80000111-1473948621</ListID>
+<TimeCreated>2016-09-15T10:10:21-04:00</TimeCreated>
+<TimeModified>2016-09-15T10:10:21-04:00</TimeModified>
+<EditSequence>1473948621</EditSequence>
+<Name>56</Name>
+<FullName>56</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>56</Addr1>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>56</Addr1>
+</BillAddressBlock>
+<Balance>0.00</Balance>
+<TotalBalance>0.00</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000001-1426086705</ListID>
+<FullName>OB</FullName>
+</SalesTaxCodeRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000FC-1461607003</ListID>
+<TimeCreated>2016-04-25T13:56:43-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:41:16-04:00</TimeModified>
+<EditSequence>1465313806</EditSequence>
+<Name>Aalbregt M. Apt27</Name>
+<FullName>Aalbregt M. Apt27</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Aalbregt M.</Addr1>
+<Addr2>App27</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Aalbregt M.</Addr1>
+<Addr2>App27</Addr2>
+</BillAddressBlock>
+<Balance>124.72</Balance>
+<TotalBalance>124.72</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000005A-1426263707</ListID>
+<TimeCreated>2015-03-13T12:21:47-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:03:33-04:00</TimeModified>
+<EditSequence>1435336186</EditSequence>
+<Name>Abdala J.  Apt7</Name>
+<FullName>Abdala J.  Apt7</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Abdala J.</Addr1>
+<Addr2>App.7</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Abdala J.</Addr1>
+<Addr2>App.7</Addr2>
+</BillAddressBlock>
+<Balance>2320.92</Balance>
+<TotalBalance>2320.92</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000006D-1426264557</ListID>
+<TimeCreated>2015-03-13T12:35:57-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:42:40-04:00</TimeModified>
+<EditSequence>1435336216</EditSequence>
+<Name>Alberto J.  Apt28</Name>
+<FullName>Alberto J.  Apt28</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Alberto J.</Addr1>
+<Addr2>App.28</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Alberto J.</Addr1>
+<Addr2>App.28</Addr2>
+</BillAddressBlock>
+<Balance>2777.30</Balance>
+<TotalBalance>2777.30</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000059-1426263664</ListID>
+<TimeCreated>2015-03-13T12:21:04-04:00</TimeCreated>
+<TimeModified>2017-02-22T10:19:43-04:00</TimeModified>
+<EditSequence>1435336234</EditSequence>
+<Name>Angelina M.  Apt6</Name>
+<FullName>Angelina M.  Apt6</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Angelina M.</Addr1>
+<Addr2>App.6</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Angelina M.</Addr1>
+<Addr2>App.6</Addr2>
+</BillAddressBlock>
+<Balance>2880.49</Balance>
+<TotalBalance>2880.49</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000097-1426268027</ListID>
+<TimeCreated>2015-03-13T13:33:47-04:00</TimeCreated>
+<TimeModified>2017-02-09T11:46:52-04:00</TimeModified>
+<EditSequence>1435336255</EditSequence>
+<Name>Anthony E.  Apt71</Name>
+<FullName>Anthony E.  Apt71</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Anthony E.</Addr1>
+<Addr2>App.71</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Anthony E.</Addr1>
+<Addr2>App.71</Addr2>
+</BillAddressBlock>
+<Balance>5546.07</Balance>
+<TotalBalance>5546.07</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000009D-1426268258</ListID>
+<TimeCreated>2015-03-13T13:37:38-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:25:11-04:00</TimeModified>
+<EditSequence>1435336272</EditSequence>
+<Name>Anthony E.C.  Apt77</Name>
+<FullName>Anthony E.C.  Apt77</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Anthony E.C.</Addr1>
+<Addr2>App.77</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Anthony E.C.</Addr1>
+<Addr2>App.77</Addr2>
+</BillAddressBlock>
+<Balance>1334.22</Balance>
+<TotalBalance>1334.22</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A5-1426270490</ListID>
+<TimeCreated>2015-03-13T14:14:50-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:45:37-04:00</TimeModified>
+<EditSequence>1435336329</EditSequence>
+<Name>Beaujon A.  Apt85</Name>
+<FullName>Beaujon A.  Apt85</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Beaujon A.</Addr1>
+<Addr2>App.85</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Beaujon A.</Addr1>
+<Addr2>App.85</Addr2>
+</BillAddressBlock>
+<Balance>2421.69</Balance>
+<TotalBalance>2421.69</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A4-1426270463</ListID>
+<TimeCreated>2015-03-13T14:14:23-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:42:02-04:00</TimeModified>
+<EditSequence>1435336345</EditSequence>
+<Name>Beaujon L.  Apt84</Name>
+<FullName>Beaujon L.  Apt84</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Beaujon L.</Addr1>
+<Addr2>App.84</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Beaujon L.</Addr1>
+<Addr2>App.84</Addr2>
+</BillAddressBlock>
+<Balance>2460.39</Balance>
+<TotalBalance>2460.39</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000005D-1426263842</ListID>
+<TimeCreated>2015-03-13T12:24:02-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:10:41-04:00</TimeModified>
+<EditSequence>1435336432</EditSequence>
+<Name>Bollonginos M.  Apt10</Name>
+<FullName>Bollonginos M.  Apt10</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Bollonginos M.</Addr1>
+<Addr2>App.10</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Bollonginos M.</Addr1>
+<Addr2>App.10</Addr2>
+</BillAddressBlock>
+<Balance>4255.10</Balance>
+<TotalBalance>4255.10</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000AC-1426270936</ListID>
+<TimeCreated>2015-03-13T14:22:16-04:00</TimeCreated>
+<TimeModified>2017-02-21T13:01:40-04:00</TimeModified>
+<EditSequence>1435336444</EditSequence>
+<Name>Bouwteam  Unit A</Name>
+<FullName>Bouwteam  Unit A</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Bouwteam</Addr1>
+<Addr2>Unit A</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Bouwteam</Addr1>
+<Addr2>Unit A</Addr2>
+</BillAddressBlock>
+<Balance>-3172.75</Balance>
+<TotalBalance>-3172.75</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000064-1426264141</ListID>
+<TimeCreated>2015-03-13T12:29:01-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:24:40-04:00</TimeModified>
+<EditSequence>1435336458</EditSequence>
+<Name>Browne E.  Apt18</Name>
+<FullName>Browne E.  Apt18</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Browne E.</Addr1>
+<Addr2>App.18</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Browne E.</Addr1>
+<Addr2>App.18</Addr2>
+</BillAddressBlock>
+<Balance>2302.32</Balance>
+<TotalBalance>2302.32</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000008D-1426267607</ListID>
+<TimeCreated>2015-03-13T13:26:47-04:00</TimeCreated>
+<TimeModified>2017-02-09T11:48:18-04:00</TimeModified>
+<EditSequence>1435336473</EditSequence>
+<Name>Browne L.  Apt61</Name>
+<FullName>Browne L.  Apt61</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Browne L.</Addr1>
+<Addr2>App.61</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Browne L.</Addr1>
+<Addr2>App.61</Addr2>
+</BillAddressBlock>
+<Balance>2944.32</Balance>
+<TotalBalance>2944.32</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000077-1426264950</ListID>
+<TimeCreated>2015-03-13T12:42:30-04:00</TimeCreated>
+<TimeModified>2016-09-21T07:04:42-04:00</TimeModified>
+<EditSequence>1435336503</EditSequence>
+<Name>Cardona Melo C.  Apt39</Name>
+<FullName>Cardona Melo C.  Apt39</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Cardona Melo C.</Addr1>
+<Addr2>App.39</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Cardona Melo C.</Addr1>
+<Addr2>App.39</Addr2>
+</BillAddressBlock>
+<Balance>4561.28</Balance>
+<TotalBalance>4561.28</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000009E-1426268429</ListID>
+<TimeCreated>2015-03-13T13:40:29-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:27:01-04:00</TimeModified>
+<EditSequence>1435336518</EditSequence>
+<Name>Carmelia L.  Apt78</Name>
+<FullName>Carmelia L.  Apt78</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Carmelia L.</Addr1>
+<Addr2>App.78</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Carmelia L.</Addr1>
+<Addr2>App.78</Addr2>
+</BillAddressBlock>
+<Balance>2521.14</Balance>
+<TotalBalance>2521.14</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B3-1426689662</ListID>
+<TimeCreated>2015-03-18T10:41:02-04:00</TimeCreated>
+<TimeModified>2017-02-09T11:49:07-04:00</TimeModified>
+<EditSequence>1435336531</EditSequence>
+<Name>Casseres J.  Apt4</Name>
+<FullName>Casseres J.  Apt4</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Casseres J.</Addr1>
+<Addr2>App.4</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Casseres J.</Addr1>
+<Addr2>App.4</Addr2>
+</BillAddressBlock>
+<Balance>851.27</Balance>
+<TotalBalance>851.27</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000057-1426263566</ListID>
+<TimeCreated>2015-03-13T12:19:26-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:39:09-04:00</TimeModified>
+<EditSequence>1435338045</EditSequence>
+<Name>Casseres J.  Apt63</Name>
+<FullName>Casseres J.  Apt63</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Casseres J.</Addr1>
+<Addr2>App.63</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Casseres J.</Addr1>
+<Addr2>App.63</Addr2>
+</BillAddressBlock>
+<Balance>3645.39</Balance>
+<TotalBalance>3645.39</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000008C-1426267559</ListID>
+<TimeCreated>2015-03-13T13:25:59-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:35:17-04:00</TimeModified>
+<EditSequence>1435336548</EditSequence>
+<Name>Chocolaad J.  Apt60</Name>
+<FullName>Chocolaad J.  Apt60</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Chocolaad J.</Addr1>
+<Addr2>App.60</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Chocolaad J.</Addr1>
+<Addr2>App.60</Addr2>
+</BillAddressBlock>
+<Balance>2698.59</Balance>
+<TotalBalance>2698.59</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000005B-1426263762</ListID>
+<TimeCreated>2015-03-13T12:22:42-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:05:03-04:00</TimeModified>
+<EditSequence>1435336560</EditSequence>
+<Name>Coelho E.  Apt8</Name>
+<FullName>Coelho E.  Apt8</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Coelho E.</Addr1>
+<Addr2>App.8</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Coelho E.</Addr1>
+<Addr2>App.8</Addr2>
+</BillAddressBlock>
+<Balance>3438.03</Balance>
+<TotalBalance>3438.03</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000070-1426264693</ListID>
+<TimeCreated>2015-03-13T12:38:13-04:00</TimeCreated>
+<TimeModified>2017-02-15T08:55:40-04:00</TimeModified>
+<EditSequence>1435336574</EditSequence>
+<Name>Curiel R.  Apt32</Name>
+<FullName>Curiel R.  Apt32</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Curiel R.</Addr1>
+<Addr2>App.32</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Curiel R.</Addr1>
+<Addr2>App.32</Addr2>
+</BillAddressBlock>
+<Balance>914.42</Balance>
+<TotalBalance>914.42</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000081-1426265538</ListID>
+<TimeCreated>2015-03-13T12:52:18-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:17:03-04:00</TimeModified>
+<EditSequence>1435336592</EditSequence>
+<Name>da Costa Gomez F.  Apt49</Name>
+<FullName>da Costa Gomez F.  Apt49</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>da Costa Gomez F.</Addr1>
+<Addr2>App.49</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>da Costa Gomez F.</Addr1>
+<Addr2>App.49</Addr2>
+</BillAddressBlock>
+<Balance>5069.32</Balance>
+<TotalBalance>5069.32</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000056-1426263517</ListID>
+<TimeCreated>2015-03-13T12:18:37-04:00</TimeCreated>
+<TimeModified>2017-02-23T10:35:51-04:00</TimeModified>
+<EditSequence>1435336604</EditSequence>
+<Name>Daal-Tjon M.  Apt3</Name>
+<FullName>Daal-Tjon M.  Apt3</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Daal-Tjon M.</Addr1>
+<Addr2>App.3</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Daal-Tjon M.</Addr1>
+<Addr2>App.3</Addr2>
+</BillAddressBlock>
+<Balance>3048.26</Balance>
+<TotalBalance>3048.26</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B8-1427556265</ListID>
+<TimeCreated>2015-03-28T11:24:25-04:00</TimeCreated>
+<TimeModified>2015-06-26T12:37:12-04:00</TimeModified>
+<EditSequence>1435336632</EditSequence>
+<Name>Daal G.A.  Apt.29</Name>
+<FullName>Daal G.A.  Apt.29</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<City>Daal</City>
+<State>GA</State>
+<Note>App.29</Note>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Daal G.A.</Addr1>
+<Addr2>App.29</Addr2>
+</BillAddressBlock>
+<Balance>0.00</Balance>
+<TotalBalance>0.00</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000006B-1426264494</ListID>
+<TimeCreated>2015-03-13T12:34:54-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:39:37-04:00</TimeModified>
+<EditSequence>1435336659</EditSequence>
+<Name>Dania G.  Apt26</Name>
+<FullName>Dania G.  Apt26</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Dania G.</Addr1>
+<Addr2>App.26</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Dania G.</Addr1>
+<Addr2>App.26</Addr2>
+</BillAddressBlock>
+<Balance>1997.10</Balance>
+<TotalBalance>1997.10</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B4-1427472228</ListID>
+<TimeCreated>2015-03-27T12:03:48-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:09:56-04:00</TimeModified>
+<EditSequence>1435069657</EditSequence>
+<Name>de Freitas F.  Apt.11</Name>
+<FullName>de Freitas F.  Apt.11</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<State>DE</State>
+<Note>App.11</Note>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>de Freitas F.</Addr1>
+<Addr2> App.11</Addr2>
+</BillAddressBlock>
+<Balance>63.77</Balance>
+<TotalBalance>63.77</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000007F-1426265456</ListID>
+<TimeCreated>2015-03-13T12:50:56-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:13:59-04:00</TimeModified>
+<EditSequence>1435336757</EditSequence>
+<Name>de Haan J.  Apt47</Name>
+<FullName>de Haan J.  Apt47</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<State>DE</State>
+<Note>App.47</Note>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>de Haan J.</Addr1>
+<Addr2>App.47</Addr2>
+</BillAddressBlock>
+<Balance>3221.50</Balance>
+<TotalBalance>3221.50</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B5-1427474812</ListID>
+<TimeCreated>2015-03-27T12:46:52-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:10:33-04:00</TimeModified>
+<EditSequence>1435336785</EditSequence>
+<Name>de Ridder S.  Apt.20</Name>
+<FullName>de Ridder S.  Apt.20</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<State>DE</State>
+<Note>App.20</Note>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>de Ridder S.</Addr1>
+<Addr2>App.20</Addr2>
+</BillAddressBlock>
+<Balance>876.56</Balance>
+<TotalBalance>876.56</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000010C-1473945522</ListID>
+<TimeCreated>2016-09-15T09:18:42-04:00</TimeCreated>
+<TimeModified>2016-09-15T09:19:46-04:00</TimeModified>
+<EditSequence>1473945522</EditSequence>
+<Name>Edsel U Everon</Name>
+<FullName>Edsel U Everon</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Edsel U Everon</Addr1>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Edsel U Everon</Addr1>
+</BillAddressBlock>
+<Balance>0.00</Balance>
+<TotalBalance>0.00</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000001-1426086705</ListID>
+<FullName>OB</FullName>
+</SalesTaxCodeRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A0-1426268880</ListID>
+<TimeCreated>2015-03-13T13:48:00-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:33:52-04:00</TimeModified>
+<EditSequence>1435336799</EditSequence>
+<Name>Edwards C.  Apt80</Name>
+<FullName>Edwards C.  Apt80</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Edwards C.</Addr1>
+<Addr2>App.80</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Edwards C.</Addr1>
+<Addr2>App.80</Addr2>
+</BillAddressBlock>
+<Balance>1518.91</Balance>
+<TotalBalance>1518.91</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000068-1426264304</ListID>
+<TimeCreated>2015-03-13T12:31:44-04:00</TimeCreated>
+<TimeModified>2017-02-23T10:46:07-04:00</TimeModified>
+<EditSequence>1435336813</EditSequence>
+<Name>Everon H.  Apt23</Name>
+<FullName>Everon H.  Apt23</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Everon H.</Addr1>
+<Addr2>App.23</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Everon H.</Addr1>
+<Addr2>App.23</Addr2>
+</BillAddressBlock>
+<Balance>1064.64</Balance>
+<TotalBalance>1064.64</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000AA-1426270669</ListID>
+<TimeCreated>2015-03-13T14:17:49-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:53:47-04:00</TimeModified>
+<EditSequence>1435336828</EditSequence>
+<Name>Faulborn L.  Apt90</Name>
+<FullName>Faulborn L.  Apt90</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Faulborn L.</Addr1>
+<Addr2>App.90</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Faulborn L.</Addr1>
+<Addr2>App.90</Addr2>
+</BillAddressBlock>
+<Balance>2492.06</Balance>
+<TotalBalance>2492.06</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000007D-1426265387</ListID>
+<TimeCreated>2015-03-13T12:49:47-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:09:50-04:00</TimeModified>
+<EditSequence>1435336840</EditSequence>
+<Name>Gabriela I.  Apt45</Name>
+<FullName>Gabriela I.  Apt45</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Gabriela I.</Addr1>
+<Addr2>App.45</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Gabriela I.</Addr1>
+<Addr2>App.45</Addr2>
+</BillAddressBlock>
+<Balance>4721.12</Balance>
+<TotalBalance>4721.12</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000F6-1460125666</ListID>
+<TimeCreated>2016-04-08T10:27:46-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:59:32-04:00</TimeModified>
+<EditSequence>1460126285</EditSequence>
+<Name>Gravenhorst L.E.  Apt72</Name>
+<FullName>Gravenhorst L.E.  Apt72</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Gravenhorst L.E.</Addr1>
+<Addr2>App72</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Gravenhorst L.E.</Addr1>
+<Addr2>App72</Addr2>
+</BillAddressBlock>
+<Balance>2850.71</Balance>
+<TotalBalance>2850.71</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000060-1426264013</ListID>
+<TimeCreated>2015-03-13T12:26:53-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:18:26-04:00</TimeModified>
+<EditSequence>1435336851</EditSequence>
+<Name>Gravenhorst M.  Apt14</Name>
+<FullName>Gravenhorst M.  Apt14</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Gravenhorst M.</Addr1>
+<Addr2>App.14</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Gravenhorst M.</Addr1>
+<Addr2>App.14</Addr2>
+</BillAddressBlock>
+<Balance>1099.34</Balance>
+<TotalBalance>1099.34</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000E1-1447338163</ListID>
+<TimeCreated>2015-11-12T10:22:43-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:52:24-04:00</TimeModified>
+<EditSequence>1447339046</EditSequence>
+<Name>Gulj&#233; R. Apt.38</Name>
+<FullName>Gulj&#233; R. Apt.38</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Gulj&#233; R.</Addr1>
+<Addr2>App.38</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Gulj&#233; R.</Addr1>
+<Addr2>App.38</Addr2>
+</BillAddressBlock>
+<Balance>4374.66</Balance>
+<TotalBalance>4374.66</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A1-1426270336</ListID>
+<TimeCreated>2015-03-13T14:12:16-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:35:51-04:00</TimeModified>
+<EditSequence>1435336865</EditSequence>
+<Name>Hart J.  Apt81</Name>
+<FullName>Hart J.  Apt81</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Hart J.</Addr1>
+<Addr2>App.81</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Hart J.</Addr1>
+<Addr2>App.81</Addr2>
+</BillAddressBlock>
+<Balance>2598.52</Balance>
+<TotalBalance>2598.52</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000083-1426265659</ListID>
+<TimeCreated>2015-03-13T12:54:19-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:19:59-04:00</TimeModified>
+<EditSequence>1435336876</EditSequence>
+<Name>Heesbeen R.  Apt51</Name>
+<FullName>Heesbeen R.  Apt51</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Heesbeen R.</Addr1>
+<Addr2>App.51</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Heesbeen R.</Addr1>
+<Addr2>App.51</Addr2>
+</BillAddressBlock>
+<Balance>3655.02</Balance>
+<TotalBalance>3655.02</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B9-1428426869</ListID>
+<TimeCreated>2015-04-07T13:14:29-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:29:42-04:00</TimeModified>
+<EditSequence>1487683782</EditSequence>
+<Name>Henriette I. Apt.20</Name>
+<FullName>Henriette I. Apt.20</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Henriette I.</Addr1>
+<Addr2>App.20</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Henriette I.</Addr1>
+<Addr2>App.20</Addr2>
+</BillAddressBlock>
+<Balance>2894.55</Balance>
+<TotalBalance>2894.55</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000066-1426264224</ListID>
+<TimeCreated>2015-03-13T12:30:24-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:31:23-04:00</TimeModified>
+<EditSequence>1435336925</EditSequence>
+<Name>Henry C.  Apt21</Name>
+<FullName>Henry C.  Apt21</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Henry C.</Addr1>
+<Addr2>App.21</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Henry C.</Addr1>
+<Addr2>App.21</Addr2>
+</BillAddressBlock>
+<Balance>1781.37</Balance>
+<TotalBalance>1781.37</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000087-1426265803</ListID>
+<TimeCreated>2015-03-13T12:56:43-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:28:01-04:00</TimeModified>
+<EditSequence>1435336938</EditSequence>
+<Name>Hernandez E.  Apt55</Name>
+<FullName>Hernandez E.  Apt55</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Hernandez E.</Addr1>
+<Addr2>App.55</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Hernandez E.</Addr1>
+<Addr2>App.55</Addr2>
+</BillAddressBlock>
+<Balance>2552.48</Balance>
+<TotalBalance>2552.48</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000006F-1426264664</ListID>
+<TimeCreated>2015-03-13T12:37:44-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:37:01-04:00</TimeModified>
+<EditSequence>1435336952</EditSequence>
+<Name>Isebia E.  Apt31</Name>
+<FullName>Isebia E.  Apt31</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Isebia E.</Addr1>
+<Addr2>App.31</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Isebia E.</Addr1>
+<Addr2>App.31</Addr2>
+</BillAddressBlock>
+<Balance>1706.33</Balance>
+<TotalBalance>1706.33</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000078-1426265009</ListID>
+<TimeCreated>2015-03-13T12:43:29-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:54:09-04:00</TimeModified>
+<EditSequence>1435336963</EditSequence>
+<Name>Jessurun E.  Apt40</Name>
+<FullName>Jessurun E.  Apt40</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Jessurun E.</Addr1>
+<Addr2>App.40</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Jessurun E.</Addr1>
+<Addr2>App.40</Addr2>
+</BillAddressBlock>
+<Balance>4391.91</Balance>
+<TotalBalance>4391.91</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000009C-1426268225</ListID>
+<TimeCreated>2015-03-13T13:37:05-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:23:03-04:00</TimeModified>
+<EditSequence>1435336976</EditSequence>
+<Name>Johanns L.  Apt76</Name>
+<FullName>Johanns L.  Apt76</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Johanns L.</Addr1>
+<Addr2>App.76</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Johanns L.</Addr1>
+<Addr2>App.76</Addr2>
+</BillAddressBlock>
+<Balance>3075.41</Balance>
+<TotalBalance>3075.41</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000F5-1460124128</ListID>
+<TimeCreated>2016-04-08T10:02:08-04:00</TimeCreated>
+<TimeModified>2017-02-23T10:45:19-04:00</TimeModified>
+<EditSequence>1460125375</EditSequence>
+<Name>Jonkergouw H.M  Apt71</Name>
+<FullName>Jonkergouw H.M  Apt71</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Jonkergouw H.M</Addr1>
+<Addr2>App.71</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Jonkergouw H.M</Addr1>
+<Addr2>App.71</Addr2>
+</BillAddressBlock>
+<Balance>88.26</Balance>
+<TotalBalance>88.26</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000121-1484056774</ListID>
+<TimeCreated>2017-01-10T09:59:34-04:00</TimeCreated>
+<TimeModified>2017-01-10T09:59:34-04:00</TimeModified>
+<EditSequence>1484056774</EditSequence>
+<Name>Karel Vreugdenhill</Name>
+<FullName>Karel Vreugdenhill</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Karel Vreugdenhill</Addr1>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Karel Vreugdenhill</Addr1>
+</BillAddressBlock>
+<Balance>0.00</Balance>
+<TotalBalance>0.00</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000001-1426086705</ListID>
+<FullName>OB</FullName>
+</SalesTaxCodeRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000072-1426264751</ListID>
+<TimeCreated>2015-03-13T12:39:11-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:44:18-04:00</TimeModified>
+<EditSequence>1435336988</EditSequence>
+<Name>Kleine J.  Apt34</Name>
+<FullName>Kleine J.  Apt34</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Kleine J.</Addr1>
+<Addr2>App.34</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Kleine J.</Addr1>
+<Addr2>App.34</Addr2>
+</BillAddressBlock>
+<Balance>2835.48</Balance>
+<TotalBalance>2835.48</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000005E-1426263888</ListID>
+<TimeCreated>2015-03-13T12:24:48-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:14:50-04:00</TimeModified>
+<EditSequence>1435337003</EditSequence>
+<Name>Kunath C.  Apt12</Name>
+<FullName>Kunath C.  Apt12</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Kunath C.</Addr1>
+<Addr2>App.12</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Kunath C.</Addr1>
+<Addr2>App.12</Addr2>
+</BillAddressBlock>
+<Balance>2753.47</Balance>
+<TotalBalance>2753.47</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000088-1426266708</ListID>
+<TimeCreated>2015-03-13T13:11:48-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:29:46-04:00</TimeModified>
+<EditSequence>1435337014</EditSequence>
+<Name>Lee Sack Fong W.  Apt56</Name>
+<FullName>Lee Sack Fong W.  Apt56</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Lee Sack Fong W.</Addr1>
+<Addr2>App.56</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Lee Sack Fong W.</Addr1>
+<Addr2>App.56</Addr2>
+</BillAddressBlock>
+<Balance>7527.88</Balance>
+<TotalBalance>7527.88</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000AD-1426271008</ListID>
+<TimeCreated>2015-03-13T14:23:28-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:59:35-04:00</TimeModified>
+<EditSequence>1435337031</EditSequence>
+<Name>Legal &amp; Educational Services Unit B</Name>
+<FullName>Legal &amp; Educational Services Unit B</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Legal &amp; Educational Services</Addr1>
+<Addr2>Unit B</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Legal &amp; Educational Services</Addr1>
+<Addr2>Unit B</Addr2>
+</BillAddressBlock>
+<Balance>1075.19</Balance>
+<TotalBalance>1075.19</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B2-1426609418</ListID>
+<TimeCreated>2015-03-17T12:23:38-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:56:55-04:00</TimeModified>
+<EditSequence>1435337041</EditSequence>
+<Name>Leo-de los Santos I.  Unit K</Name>
+<FullName>Leo-de los Santos I.  Unit K</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Leo-de los Santos I.</Addr1>
+<Addr2>Unit K</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Leo-de los Santos I.</Addr1>
+<Addr2>Unit K</Addr2>
+</BillAddressBlock>
+<Balance>3760.00</Balance>
+<TotalBalance>3760.00</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000009B-1426268186</ListID>
+<TimeCreated>2015-03-13T13:36:26-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:20:44-04:00</TimeModified>
+<EditSequence>1435337054</EditSequence>
+<Name>Letzer H.  Apt75</Name>
+<FullName>Letzer H.  Apt75</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Letzer H.</Addr1>
+<Addr2>App.75</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Letzer H.</Addr1>
+<Addr2>App.75</Addr2>
+</BillAddressBlock>
+<Balance>3379.96</Balance>
+<TotalBalance>3379.96</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000080-1426265498</ListID>
+<TimeCreated>2015-03-13T12:51:38-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:15:26-04:00</TimeModified>
+<EditSequence>1435337069</EditSequence>
+<Name>Linzey A.  Apt48</Name>
+<FullName>Linzey A.  Apt48</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Linzey A.</Addr1>
+<Addr2>App.48</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Linzey A.</Addr1>
+<Addr2>App.48</Addr2>
+</BillAddressBlock>
+<Balance>2470.90</Balance>
+<TotalBalance>2470.90</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000006E-1426264632</ListID>
+<TimeCreated>2015-03-13T12:37:12-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:34:32-04:00</TimeModified>
+<EditSequence>1435337081</EditSequence>
+<Name>Lobrecht V.  Apt30</Name>
+<FullName>Lobrecht V.  Apt30</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Lobrecht V.</Addr1>
+<Addr2>App.30</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Lobrecht V.</Addr1>
+<Addr2>App.30</Addr2>
+</BillAddressBlock>
+<Balance>1903.53</Balance>
+<TotalBalance>1903.53</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000071-1426264718</ListID>
+<TimeCreated>2015-03-13T12:38:38-04:00</TimeCreated>
+<TimeModified>2017-02-23T10:33:38-04:00</TimeModified>
+<EditSequence>1435337104</EditSequence>
+<Name>Marten S.  Apt33</Name>
+<FullName>Marten S.  Apt33</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Marten S.</Addr1>
+<Addr2>App.33</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Marten S.</Addr1>
+<Addr2>App.33</Addr2>
+</BillAddressBlock>
+<Balance>1534.59</Balance>
+<TotalBalance>1534.59</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A3-1426270435</ListID>
+<TimeCreated>2015-03-13T14:13:55-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:39:46-04:00</TimeModified>
+<EditSequence>1435337115</EditSequence>
+<Name>Martina A.  Apt83</Name>
+<FullName>Martina A.  Apt83</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Martina A.</Addr1>
+<Addr2>App.83</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Martina A.</Addr1>
+<Addr2>App.83</Addr2>
+</BillAddressBlock>
+<Balance>2701.28</Balance>
+<TotalBalance>2701.28</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000073-1426264778</ListID>
+<TimeCreated>2015-03-13T12:39:38-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:46:51-04:00</TimeModified>
+<EditSequence>1435337127</EditSequence>
+<Name>Martinus L.  Apt35</Name>
+<FullName>Martinus L.  Apt35</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Martinus L.</Addr1>
+<Addr2>App.35</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Martinus L.</Addr1>
+<Addr2>App.35</Addr2>
+</BillAddressBlock>
+<Balance>18637.48</Balance>
+<TotalBalance>18637.48</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000DD-1445441671</ListID>
+<TimeCreated>2015-10-21T11:34:31-04:00</TimeCreated>
+<TimeModified>2015-11-24T10:43:57-04:00</TimeModified>
+<EditSequence>1446402165</EditSequence>
+<Name>Martinus L. App.4</Name>
+<FullName>Martinus L. App.4</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Martinus L.</Addr1>
+<Addr2>App.4</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Martinus L.</Addr1>
+<Addr2>App.4</Addr2>
+</BillAddressBlock>
+<Balance>0.00</Balance>
+<TotalBalance>0.00</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000007B-1426265303</ListID>
+<TimeCreated>2015-03-13T12:48:23-04:00</TimeCreated>
+<TimeModified>2017-02-22T10:18:51-04:00</TimeModified>
+<EditSequence>1435337138</EditSequence>
+<Name>Martis E.  Apt43</Name>
+<FullName>Martis E.  Apt43</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Martis E.</Addr1>
+<Addr2>App.43</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Martis E.</Addr1>
+<Addr2>App.43</Addr2>
+</BillAddressBlock>
+<Balance>517.01</Balance>
+<TotalBalance>517.01</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000065-1426264169</ListID>
+<TimeCreated>2015-03-13T12:29:29-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:26:31-04:00</TimeModified>
+<EditSequence>1435337149</EditSequence>
+<Name>Martis M.  Apt19</Name>
+<FullName>Martis M.  Apt19</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Martis M.</Addr1>
+<Addr2>App.19</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Martis M.</Addr1>
+<Addr2>App.19</Addr2>
+</BillAddressBlock>
+<Balance>2019.98</Balance>
+<TotalBalance>2019.98</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000091-1426267812</ListID>
+<TimeCreated>2015-03-13T13:30:12-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:42:08-04:00</TimeModified>
+<EditSequence>1435337162</EditSequence>
+<Name>Mau- A- Sam A.  Apt65</Name>
+<FullName>Mau- A- Sam A.  Apt65</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Mau- A- Sam A.</Addr1>
+<Addr2>App.65</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Mau- A- Sam A.</Addr1>
+<Addr2>App.65</Addr2>
+</BillAddressBlock>
+<Balance>2498.91</Balance>
+<TotalBalance>2498.91</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000062-1426264070</ListID>
+<TimeCreated>2015-03-13T12:27:50-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:21:18-04:00</TimeModified>
+<EditSequence>1435337174</EditSequence>
+<Name>Morkos D.  Apt16</Name>
+<FullName>Morkos D.  Apt16</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Morkos D.</Addr1>
+<Addr2>App.16</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Morkos D.</Addr1>
+<Addr2>App.16</Addr2>
+</BillAddressBlock>
+<Balance>1983.05</Balance>
+<TotalBalance>1983.05</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000089-1426267457</ListID>
+<TimeCreated>2015-03-13T13:24:17-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:31:25-04:00</TimeModified>
+<EditSequence>1435337185</EditSequence>
+<Name>Newton Rijna A.  Apt57</Name>
+<FullName>Newton Rijna A.  Apt57</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Newton Rijna A.</Addr1>
+<Addr2>App.57</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Newton Rijna A.</Addr1>
+<Addr2>App.57</Addr2>
+</BillAddressBlock>
+<Balance>2549.56</Balance>
+<TotalBalance>2549.56</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A8-1426270614</ListID>
+<TimeCreated>2015-03-13T14:16:54-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:50:40-04:00</TimeModified>
+<EditSequence>1435337202</EditSequence>
+<Name>Noorden M.  Apt88</Name>
+<FullName>Noorden M.  Apt88</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Noorden M.</Addr1>
+<Addr2>App.88</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Noorden M.</Addr1>
+<Addr2>App.88</Addr2>
+</BillAddressBlock>
+<Balance>4875.88</Balance>
+<TotalBalance>4875.88</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000090-1426267708</ListID>
+<TimeCreated>2015-03-13T13:28:28-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:40:45-04:00</TimeModified>
+<EditSequence>1435337212</EditSequence>
+<Name>Palm H.  Apt64</Name>
+<FullName>Palm H.  Apt64</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Palm H.</Addr1>
+<Addr2>App.64</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Palm H.</Addr1>
+<Addr2>App.64</Addr2>
+</BillAddressBlock>
+<Balance>2484.68</Balance>
+<TotalBalance>2484.68</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000085-1426265726</ListID>
+<TimeCreated>2015-03-13T12:55:26-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:24:58-04:00</TimeModified>
+<EditSequence>1435337226</EditSequence>
+<Name>Passial H.  Apt53</Name>
+<FullName>Passial H.  Apt53</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Passial H.</Addr1>
+<Addr2>App.53</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Passial H.</Addr1>
+<Addr2>App.53</Addr2>
+</BillAddressBlock>
+<Balance>2811.22</Balance>
+<TotalBalance>2811.22</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000061-1426264044</ListID>
+<TimeCreated>2015-03-13T12:27:24-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:19:54-04:00</TimeModified>
+<EditSequence>1435337239</EditSequence>
+<Name>Pieters R.  Apt15</Name>
+<FullName>Pieters R.  Apt15</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Pieters R.</Addr1>
+<Addr2>App.15</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Pieters R.</Addr1>
+<Addr2>App.15</Addr2>
+</BillAddressBlock>
+<Balance>2238.93</Balance>
+<TotalBalance>2238.93</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000054-1426263152</ListID>
+<TimeCreated>2015-03-13T12:12:32-04:00</TimeCreated>
+<TimeModified>2017-02-21T08:47:57-04:00</TimeModified>
+<EditSequence>1436977404</EditSequence>
+<Name>Pieters V.  Apt1</Name>
+<FullName>Pieters V.  Apt1</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Pieters V.</Addr1>
+<Addr2>App.1</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Pieters V.</Addr1>
+<Addr2>App.1</Addr2>
+</BillAddressBlock>
+<Balance>1928.28</Balance>
+<TotalBalance>1928.28</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000055-1426263320</ListID>
+<TimeCreated>2015-03-13T12:15:20-04:00</TimeCreated>
+<TimeModified>2017-02-21T08:50:30-04:00</TimeModified>
+<EditSequence>1436977426</EditSequence>
+<Name>Pieters V.  Apt2</Name>
+<FullName>Pieters V.  Apt2</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Pieters V.</Addr1>
+<Addr2>App.2</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Pieters V.</Addr1>
+<Addr2>App.2</Addr2>
+</BillAddressBlock>
+<Balance>1848.99</Balance>
+<TotalBalance>1848.99</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000AB-1426270757</ListID>
+<TimeCreated>2015-03-13T14:19:17-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:55:12-04:00</TimeModified>
+<EditSequence>1435337273</EditSequence>
+<Name>Playa-v/der Veen E.  Apt91</Name>
+<FullName>Playa-v/der Veen E.  Apt91</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Playa-v/der Veen E.</Addr1>
+<Addr2>App.91</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Playa-v/der Veen E.</Addr1>
+<Addr2>App.91</Addr2>
+</BillAddressBlock>
+<Balance>3313.63</Balance>
+<TotalBalance>3313.63</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000011D-1476197547</ListID>
+<TimeCreated>2016-10-11T10:52:27-04:00</TimeCreated>
+<TimeModified>2017-02-08T09:38:53-04:00</TimeModified>
+<EditSequence>1476200706</EditSequence>
+<Name>PMC Proventus Mangement Co .Unit C-D</Name>
+<FullName>PMC Proventus Mangement Co .Unit C-D</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<CompanyName>PMC Proventus Mangement Co. Unit C-D</CompanyName>
+<BillAddress>
+<City>PMC Proventus Management</City>
+<State>CO</State>
+<Note>Kaya W.F.G. Mensing 28</Note>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>PMC Proventus Management Co. Unit C-D</Addr1>
+<Addr2>Kaya W.F.G. Mensing 28</Addr2>
+</BillAddressBlock>
+<Balance>4450.89</Balance>
+<TotalBalance>4450.89</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000001-1426086705</ListID>
+<FullName>OB</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000001-1426086926</ListID>
+<FullName>O.B</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000005F-1426263933</ListID>
+<TimeCreated>2015-03-13T12:25:33-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:16:24-04:00</TimeModified>
+<EditSequence>1435337286</EditSequence>
+<Name>Ramirez M.  Apt13</Name>
+<FullName>Ramirez M.  Apt13</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Ramirez M.</Addr1>
+<Addr2>App.13</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Ramirez M.</Addr1>
+<Addr2>App.13</Addr2>
+</BillAddressBlock>
+<Balance>13125.82</Balance>
+<TotalBalance>13125.82</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000005C-1426263808</ListID>
+<TimeCreated>2015-03-13T12:23:28-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:06:57-04:00</TimeModified>
+<EditSequence>1435337299</EditSequence>
+<Name>Renzenbrink I.  Apt9</Name>
+<FullName>Renzenbrink I.  Apt9</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Renzenbrink I.</Addr1>
+<Addr2>App.9</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Renzenbrink I.</Addr1>
+<Addr2>App.9</Addr2>
+</BillAddressBlock>
+<Balance>999.70</Balance>
+<TotalBalance>999.70</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000082-1426265571</ListID>
+<TimeCreated>2015-03-13T12:52:51-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:18:34-04:00</TimeModified>
+<EditSequence>1435337311</EditSequence>
+<Name>Ridderplaat G.  Apt50</Name>
+<FullName>Ridderplaat G.  Apt50</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Ridderplaat G.</Addr1>
+<Addr2>App.50</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Ridderplaat G.</Addr1>
+<Addr2>App.50</Addr2>
+</BillAddressBlock>
+<Balance>8675.85</Balance>
+<TotalBalance>8675.85</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A9-1426270643</ListID>
+<TimeCreated>2015-03-13T14:17:23-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:52:05-04:00</TimeModified>
+<EditSequence>1435337497</EditSequence>
+<Name>Rijna B.  Apt89</Name>
+<FullName>Rijna B.  Apt89</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Rijna B.</Addr1>
+<Addr2>App.89</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Rijna B.</Addr1>
+<Addr2>App.89</Addr2>
+</BillAddressBlock>
+<Balance>2491.99</Balance>
+<TotalBalance>2491.99</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000006C-1426264523</ListID>
+<TimeCreated>2015-03-13T12:35:23-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:01:18-04:00</TimeModified>
+<EditSequence>1427128270</EditSequence>
+<Name>Rog R.  Apt27</Name>
+<FullName>Rog R.  Apt27</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Rog R. Apt27</Addr1>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Rog R.  Apt27</Addr1>
+</BillAddressBlock>
+<Balance>844.62</Balance>
+<TotalBalance>844.62</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000074-1426264818</ListID>
+<TimeCreated>2015-03-13T12:40:18-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:48:32-04:00</TimeModified>
+<EditSequence>1435337620</EditSequence>
+<Name>Rooyer M.  Apt36</Name>
+<FullName>Rooyer M.  Apt36</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Rooyer M.</Addr1>
+<Addr2>App.36</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Rooyer M.</Addr1>
+<Addr2>App.36</Addr2>
+</BillAddressBlock>
+<Balance>3142.96</Balance>
+<TotalBalance>3142.96</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000099-1426268117</ListID>
+<TimeCreated>2015-03-13T13:35:17-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:09:02-04:00</TimeModified>
+<EditSequence>1435337632</EditSequence>
+<Name>Rosaria C.  Apt73</Name>
+<FullName>Rosaria C.  Apt73</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Rosaria C.</Addr1>
+<Addr2>App.73</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Rosaria C.</Addr1>
+<Addr2>App.73</Addr2>
+</BillAddressBlock>
+<Balance>2860.42</Balance>
+<TotalBalance>2860.42</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000008A-1426267482</ListID>
+<TimeCreated>2015-03-13T13:24:42-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:02:17-04:00</TimeModified>
+<EditSequence>1435337644</EditSequence>
+<Name>Rosina A.  Apt58</Name>
+<FullName>Rosina A.  Apt58</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Rosina A.</Addr1>
+<Addr2>App.58</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Rosina A.</Addr1>
+<Addr2>App.58</Addr2>
+</BillAddressBlock>
+<Balance>665.07</Balance>
+<TotalBalance>665.07</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000086-1426265752</ListID>
+<TimeCreated>2015-03-13T12:55:52-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:26:34-04:00</TimeModified>
+<EditSequence>1435337656</EditSequence>
+<Name>Sandstra H.  Apt54</Name>
+<FullName>Sandstra H.  Apt54</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Sandstra H.</Addr1>
+<Addr2>App.54</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Sandstra H.</Addr1>
+<Addr2>App.54</Addr2>
+</BillAddressBlock>
+<Balance>2884.30</Balance>
+<TotalBalance>2884.30</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000EE-1456413744</ListID>
+<TimeCreated>2016-02-25T11:22:24-04:00</TimeCreated>
+<TimeModified>2017-02-21T08:59:52-04:00</TimeModified>
+<EditSequence>1456414364</EditSequence>
+<Name>Santiroma,Mevr. App.5</Name>
+<FullName>Santiroma,Mevr. App.5</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Santiroma, Mevr.</Addr1>
+<Addr2>App.5</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Santiroma,Mevr.</Addr1>
+<Addr2>App.5</Addr2>
+</BillAddressBlock>
+<Balance>1036.69</Balance>
+<TotalBalance>1036.69</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000007A-1426265277</ListID>
+<TimeCreated>2015-03-13T12:47:57-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:58:54-04:00</TimeModified>
+<EditSequence>1435337668</EditSequence>
+<Name>Schotborgh S.  Apt42</Name>
+<FullName>Schotborgh S.  Apt42</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Schotborgh S.</Addr1>
+<Addr2>App.42</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Schotborgh S.</Addr1>
+<Addr2>App.42</Addr2>
+</BillAddressBlock>
+<Balance>3037.93</Balance>
+<TotalBalance>3037.93</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000076-1426264900</ListID>
+<TimeCreated>2015-03-13T12:41:40-04:00</TimeCreated>
+<TimeModified>2015-06-26T12:54:41-04:00</TimeModified>
+<EditSequence>1435337681</EditSequence>
+<Name>Schrils O.  Apt38</Name>
+<FullName>Schrils O.  Apt38</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Schrils O.</Addr1>
+<Addr2>App.38</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Schrils O.</Addr1>
+<Addr2>App.38</Addr2>
+</BillAddressBlock>
+<Balance>0.00</Balance>
+<TotalBalance>0.00</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000AE-1426271056</ListID>
+<TimeCreated>2015-03-13T14:24:16-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:03:23-04:00</TimeModified>
+<EditSequence>1435337694</EditSequence>
+<Name>Security Group  Unit H</Name>
+<FullName>Security Group  Unit H</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Security Group</Addr1>
+<Addr2>Unit H</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Security Group</Addr1>
+<Addr2>Unit H</Addr2>
+</BillAddressBlock>
+<Balance>24621.50</Balance>
+<TotalBalance>24621.50</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000AF-1426271079</ListID>
+<TimeCreated>2015-03-13T14:24:39-04:00</TimeCreated>
+<TimeModified>2016-10-20T12:24:07-04:00</TimeModified>
+<EditSequence>1435337702</EditSequence>
+<Name>Security Group  Unit I</Name>
+<FullName>Security Group  Unit I</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Security Group</Addr1>
+<Addr2>Unit I</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Security Group</Addr1>
+<Addr2>Unit I</Addr2>
+</BillAddressBlock>
+<Balance>22187.27</Balance>
+<TotalBalance>22187.27</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B0-1426271098</ListID>
+<TimeCreated>2015-03-13T14:24:58-04:00</TimeCreated>
+<TimeModified>2016-10-20T12:25:58-04:00</TimeModified>
+<EditSequence>1435337709</EditSequence>
+<Name>Security Group  Unit J</Name>
+<FullName>Security Group  Unit J</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Security Group</Addr1>
+<Addr2>Unit J</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Security Group</Addr1>
+<Addr2>Unit J</Addr2>
+</BillAddressBlock>
+<Balance>24621.50</Balance>
+<TotalBalance>24621.50</TotalBalance>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000095-1426267945</ListID>
+<TimeCreated>2015-03-13T13:32:25-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:48:30-04:00</TimeModified>
+<EditSequence>1435337721</EditSequence>
+<Name>Serphos Y.  Apt69</Name>
+<FullName>Serphos Y.  Apt69</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Serphos Y.</Addr1>
+<Addr2>App.69</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Serphos Y.</Addr1>
+<Addr2>App.69</Addr2>
+</BillAddressBlock>
+<Balance>1232.13</Balance>
+<TotalBalance>1232.13</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000096-1426267986</ListID>
+<TimeCreated>2015-03-13T13:33:06-04:00</TimeCreated>
+<TimeModified>2017-02-23T10:48:16-04:00</TimeModified>
+<EditSequence>1435337732</EditSequence>
+<Name>Servania E.  Apt70</Name>
+<FullName>Servania E.  Apt70</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Servania E.</Addr1>
+<Addr2>App.70</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Servania E.</Addr1>
+<Addr2>App.70</Addr2>
+</BillAddressBlock>
+<Balance>1577.40</Balance>
+<TotalBalance>1577.40</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A6-1426270565</ListID>
+<TimeCreated>2015-03-13T14:16:05-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:47:42-04:00</TimeModified>
+<EditSequence>1435337744</EditSequence>
+<Name>Sill&#233; E.  Apt86</Name>
+<FullName>Sill&#233; E.  Apt86</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Sill&#233; E.</Addr1>
+<Addr2>App.86</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Sill&#233; E.</Addr1>
+<Addr2>App.86</Addr2>
+</BillAddressBlock>
+<Balance>3007.10</Balance>
+<TotalBalance>3007.10</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000094-1426267916</ListID>
+<TimeCreated>2015-03-13T13:31:56-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:47:03-04:00</TimeModified>
+<EditSequence>1435337756</EditSequence>
+<Name>Smaal C.  Apt68</Name>
+<FullName>Smaal C.  Apt68</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Smaal C.</Addr1>
+<Addr2>App.68</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Smaal C.</Addr1>
+<Addr2>App.68</Addr2>
+</BillAddressBlock>
+<Balance>2163.04</Balance>
+<TotalBalance>2163.04</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000075-1426264853</ListID>
+<TimeCreated>2015-03-13T12:40:53-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:50:29-04:00</TimeModified>
+<EditSequence>1435337768</EditSequence>
+<Name>Soes I.  Apt37</Name>
+<FullName>Soes I.  Apt37</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Soes I.</Addr1>
+<Addr2>App.37</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Soes I.</Addr1>
+<Addr2>App.37</Addr2>
+</BillAddressBlock>
+<Balance>2875.61</Balance>
+<TotalBalance>2875.61</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A7-1426270588</ListID>
+<TimeCreated>2015-03-13T14:16:28-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:49:10-04:00</TimeModified>
+<EditSequence>1435337780</EditSequence>
+<Name>Stacie V.  Apt87</Name>
+<FullName>Stacie V.  Apt87</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Stacie V.</Addr1>
+<Addr2>App.87</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Stacie V.</Addr1>
+<Addr2>App.87</Addr2>
+</BillAddressBlock>
+<Balance>2457.59</Balance>
+<TotalBalance>2457.59</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000006A-1426264461</ListID>
+<TimeCreated>2015-03-13T12:34:21-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:04:55-04:00</TimeModified>
+<EditSequence>1435337791</EditSequence>
+<Name>Stede P.  Apt25</Name>
+<FullName>Stede P.  Apt25</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Stede P.</Addr1>
+<Addr2>App.25</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Stede P.</Addr1>
+<Addr2>App.25</Addr2>
+</BillAddressBlock>
+<Balance>5246.94</Balance>
+<TotalBalance>5246.94</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000084-1426265700</ListID>
+<TimeCreated>2015-03-13T12:55:00-04:00</TimeCreated>
+<TimeModified>2017-02-23T10:41:43-04:00</TimeModified>
+<EditSequence>1442587868</EditSequence>
+<Name>Tak Maal H.  Apt52</Name>
+<FullName>Tak Maal H.  Apt52</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Tak Maal H.</Addr1>
+<Addr2>App.52</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Tak Maal H.</Addr1>
+<Addr2>App.52</Addr2>
+</BillAddressBlock>
+<Balance>604.60</Balance>
+<TotalBalance>604.60</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000008E-1426267651</ListID>
+<TimeCreated>2015-03-13T13:27:31-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:37:29-04:00</TimeModified>
+<EditSequence>1435337804</EditSequence>
+<Name>Taylor J.  Apt62</Name>
+<FullName>Taylor J.  Apt62</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Taylor J.</Addr1>
+<Addr2>App.62</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Taylor J.</Addr1>
+<Addr2>App.62</Addr2>
+</BillAddressBlock>
+<Balance>1288.23</Balance>
+<TotalBalance>1288.23</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000009F-1426268483</ListID>
+<TimeCreated>2015-03-13T13:41:23-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:31:17-04:00</TimeModified>
+<EditSequence>1435337818</EditSequence>
+<Name>Tearr B.  Apt79</Name>
+<FullName>Tearr B.  Apt79</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Tearr B.</Addr1>
+<Addr2>App.79</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Tearr B.</Addr1>
+<Addr2>App.79</Addr2>
+</BillAddressBlock>
+<Balance>2444.63</Balance>
+<TotalBalance>2444.63</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000DE-1445441970</ListID>
+<TimeCreated>2015-10-21T11:39:30-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:44:17-04:00</TimeModified>
+<EditSequence>1445526507</EditSequence>
+<Name>Terzol L. App.29</Name>
+<FullName>Terzol L. App.29</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Terzol L.</Addr1>
+<Addr2>App.29</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Terzol L.</Addr1>
+<Addr2>App.29</Addr2>
+</BillAddressBlock>
+<Balance>2953.11</Balance>
+<TotalBalance>2953.11</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000092-1426267855</ListID>
+<TimeCreated>2015-03-13T13:30:55-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:43:38-04:00</TimeModified>
+<EditSequence>1435337833</EditSequence>
+<Name>Thadani A.  Apt66</Name>
+<FullName>Thadani A.  Apt66</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Thadani A.</Addr1>
+<Addr2>App.66</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Thadani A.</Addr1>
+<Addr2>App.66</Addr2>
+</BillAddressBlock>
+<Balance>2611.86</Balance>
+<TotalBalance>2611.86</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000069-1426264356</ListID>
+<TimeCreated>2015-03-13T12:32:36-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:36:12-04:00</TimeModified>
+<EditSequence>1435337844</EditSequence>
+<Name>Tjon S.  Apt24</Name>
+<FullName>Tjon S.  Apt24</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Tjon S.</Addr1>
+<Addr2>App.24</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Tjon S.</Addr1>
+<Addr2>App.24</Addr2>
+</BillAddressBlock>
+<Balance>1865.49</Balance>
+<TotalBalance>1865.49</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000101-1463759378</ListID>
+<TimeCreated>2016-05-20T11:49:38-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:13:14-04:00</TimeModified>
+<EditSequence>1463759549</EditSequence>
+<Name>v.Baren J.  Apt11</Name>
+<FullName>v.Baren J.  Apt11</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v.Baren J.</Addr1>
+<Addr2>App11</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v.Baren J.</Addr1>
+<Addr2>App11</Addr2>
+</BillAddressBlock>
+<Balance>1077.94</Balance>
+<TotalBalance>1077.94</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000002-1426086705</ListID>
+<FullName>Non</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000098-1426268061</ListID>
+<TimeCreated>2015-03-13T13:34:21-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:05:26-04:00</TimeModified>
+<EditSequence>1435337858</EditSequence>
+<Name>v.Eycklenburg P.  Apt72</Name>
+<FullName>v.Eycklenburg P.  Apt72</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v.Eycklenburg P.</Addr1>
+<Addr2>App.72</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v.Eycklenburg P.</Addr1>
+<Addr2>App.72</Addr2>
+</BillAddressBlock>
+<Balance>2961.16</Balance>
+<TotalBalance>2961.16</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000058-1426263614</ListID>
+<TimeCreated>2015-03-13T12:20:14-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:02:32-04:00</TimeModified>
+<EditSequence>1435337868</EditSequence>
+<Name>v.Gemert S.  Apt5</Name>
+<FullName>v.Gemert S.  Apt5</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v.Gemert S.</Addr1>
+<Addr2>App.5</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v.Gemert S.</Addr1>
+<Addr2>App.5</Addr2>
+</BillAddressBlock>
+<Balance>1765.32</Balance>
+<TotalBalance>1765.32</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000067-1426264268</ListID>
+<TimeCreated>2015-03-13T12:31:08-04:00</TimeCreated>
+<TimeModified>2017-02-21T09:33:02-04:00</TimeModified>
+<EditSequence>1435337880</EditSequence>
+<Name>v.Ommen-Haacke E.  Apt22</Name>
+<FullName>v.Ommen-Haacke E.  Apt22</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v.Ommen-Haacke E.</Addr1>
+<Addr2>App.22</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v.Ommen-Haacke E.</Addr1>
+<Addr2>App.22</Addr2>
+</BillAddressBlock>
+<Balance>934.20</Balance>
+<TotalBalance>934.20</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000079-1426265046</ListID>
+<TimeCreated>2015-03-13T12:44:06-04:00</TimeCreated>
+<TimeModified>2017-02-21T10:56:11-04:00</TimeModified>
+<EditSequence>1435337893</EditSequence>
+<Name>v.Trikt C.  Apt41</Name>
+<FullName>v.Trikt C.  Apt41</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v.Trikt C.</Addr1>
+<Addr2>App.41</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v.Trikt C.</Addr1>
+<Addr2>App.41</Addr2>
+</BillAddressBlock>
+<Balance>3034.47</Balance>
+<TotalBalance>3034.47</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000007C-1426265349</ListID>
+<TimeCreated>2015-03-13T12:49:09-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:02:14-04:00</TimeModified>
+<EditSequence>1435337903</EditSequence>
+<Name>v/der Ree A.  Apt44</Name>
+<FullName>v/der Ree A.  Apt44</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v/der Ree A.</Addr1>
+<Addr2>App.44</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v/der Ree A.</Addr1>
+<Addr2>App.44</Addr2>
+</BillAddressBlock>
+<Balance>2828.88</Balance>
+<TotalBalance>2828.88</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000008B-1426267530</ListID>
+<TimeCreated>2015-03-13T13:25:30-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:33:46-04:00</TimeModified>
+<EditSequence>1435337915</EditSequence>
+<Name>v/der Veen J.  Apt59</Name>
+<FullName>v/der Veen J.  Apt59</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>v/der Veen J.</Addr1>
+<Addr2>App.59</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>v/der Veen J.</Addr1>
+<Addr2>App.59</Addr2>
+</BillAddressBlock>
+<Balance>2952.94</Balance>
+<TotalBalance>2952.94</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B6-1427477237</ListID>
+<TimeCreated>2015-03-27T13:27:17-04:00</TimeCreated>
+<TimeModified>2017-02-09T12:11:01-04:00</TimeModified>
+<EditSequence>1435337932</EditSequence>
+<Name>Verbove J.A.  Apt.38</Name>
+<FullName>Verbove J.A.  Apt.38</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Verbove J.A.</Addr1>
+<Addr2>App.38</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Verbove J.A.</Addr1>
+<Addr2>App.38</Addr2>
+</BillAddressBlock>
+<Balance>2616.68</Balance>
+<TotalBalance>2616.68</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000093-1426267885</ListID>
+<TimeCreated>2015-03-13T13:31:25-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:45:14-04:00</TimeModified>
+<EditSequence>1435337943</EditSequence>
+<Name>Welvaart C.  Apt67</Name>
+<FullName>Welvaart C.  Apt67</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Welvaart C.</Addr1>
+<Addr2>App.67</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Welvaart C.</Addr1>
+<Addr2>App.67</Addr2>
+</BillAddressBlock>
+<Balance>2470.15</Balance>
+<TotalBalance>2470.15</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000A2-1426270404</ListID>
+<TimeCreated>2015-03-13T14:13:24-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:37:47-04:00</TimeModified>
+<EditSequence>1435337957</EditSequence>
+<Name>Williams E.  Apt82</Name>
+<FullName>Williams E.  Apt82</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Williams E.</Addr1>
+<Addr2>App.82</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Williams E.</Addr1>
+<Addr2>App.82</Addr2>
+</BillAddressBlock>
+<Balance>2528.19</Balance>
+<TotalBalance>2528.19</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000009A-1426268151</ListID>
+<TimeCreated>2015-03-13T13:35:51-04:00</TimeCreated>
+<TimeModified>2017-02-21T12:14:48-04:00</TimeModified>
+<EditSequence>1435337972</EditSequence>
+<Name>Wong Chung E.  Apt74</Name>
+<FullName>Wong Chung E.  Apt74</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Wong Chung E.</Addr1>
+<Addr2>App.74</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Wong Chung E.</Addr1>
+<Addr2>App.74</Addr2>
+</BillAddressBlock>
+<Balance>2611.37</Balance>
+<TotalBalance>2611.37</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>8000007E-1426265426</ListID>
+<TimeCreated>2015-03-13T12:50:26-04:00</TimeCreated>
+<TimeModified>2017-02-21T11:12:09-04:00</TimeModified>
+<EditSequence>1435337985</EditSequence>
+<Name>Wong Chung P.  Apt46</Name>
+<FullName>Wong Chung P.  Apt46</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Wong Chung P.</Addr1>
+<Addr2>App.46</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Wong Chung P.</Addr1>
+<Addr2>App.46</Addr2>
+</BillAddressBlock>
+<Balance>3327.84</Balance>
+<TotalBalance>3327.84</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>800000B7-1427477671</ListID>
+<TimeCreated>2015-03-27T13:34:31-04:00</TimeCreated>
+<TimeModified>2017-02-23T11:54:42-04:00</TimeModified>
+<EditSequence>1487864032</EditSequence>
+<Name>Zeelandia Manor Estates N.V.</Name>
+<FullName>Zeelandia Manor Estates N.V.</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Zeelandia Manor Estates N.V.</Addr1>
+<Addr2>Attn: Fernando Da Costa Gomez</Addr2>
+<Addr3>p/a Gomez Enterprises</Addr3>
+<Addr4>Salinja</Addr4>
+<City>Cura&#231;ao</City>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Zeelandia Manor Estates N.V.</Addr1>
+<Addr2>Attn: Fernando Da Costa Gomez</Addr2>
+<Addr3>p/a Gomez Enterprises</Addr3>
+<Addr4>Salinja</Addr4>
+<Addr5>Cura&#231;ao</Addr5>
+</BillAddressBlock>
+<Balance>26953.51</Balance>
+<TotalBalance>26953.51</TotalBalance>
+<SalesTaxCodeRef>
+<ListID>80000001-1426086705</ListID>
+<FullName>OB</FullName>
+</SalesTaxCodeRef>
+<ItemSalesTaxRef>
+<ListID>80000001-1426086926</ListID>
+<FullName>O.B</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+<CustomerRet>
+<ListID>80000063-1426264104</ListID>
+<TimeCreated>2015-03-13T12:28:24-04:00</TimeCreated>
+<TimeModified>2017-02-22T09:37:16-04:00</TimeModified>
+<EditSequence>1435338003</EditSequence>
+<Name>Zichem G.  Apt17</Name>
+<FullName>Zichem G.  Apt17</FullName>
+<IsActive>true</IsActive>
+<Sublevel>0</Sublevel>
+<BillAddress>
+<Addr1>Zichem G.</Addr1>
+<Addr2>App.17</Addr2>
+</BillAddress>
+<BillAddressBlock>
+<Addr1>Zichem G.</Addr1>
+<Addr2>App.17</Addr2>
+</BillAddressBlock>
+<Balance>2979.00</Balance>
+<TotalBalance>2979.00</TotalBalance>
+<ItemSalesTaxRef>
+<ListID>80000012-1427123890</ListID>
+<FullName>N/A</FullName>
+</ItemSalesTaxRef>
+<JobStatus>None</JobStatus>
+<PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+</CustomerRet>
+</CustomerQueryRs>
+</QBXMLMsgsRs>
+</QBXML>
