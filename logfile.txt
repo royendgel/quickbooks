@@ -1,0 +1,2268 @@
+
+20170609.002746	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002746	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002746	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002746	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002746	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002746	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002746	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.002746	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002746	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002746	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.002746	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002746	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002746	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002746	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002746	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002746	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.002746	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002746	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002746	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002746	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002746	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.002746	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002746	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002746	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002746	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002746	I	4848	MsgSetHandler	Finished.
+20170609.002746	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002746	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002746	D	4120	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.002746	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002746	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002746	D	4120	RequestProcessor	End Session finished OK.
+20170609.002746	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002746	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002749	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002749	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002749	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002749	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002749	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002749	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002749	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.002749	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002749	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002749	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002749	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002749	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002749	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002749	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002749	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002749	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.002749	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002749	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002749	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002749	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002749	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.002749	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002749	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002749	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002749	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002749	I	4848	MsgSetHandler	Finished.
+20170609.002749	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002749	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002749	D	4120	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.002749	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002749	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002749	D	4120	RequestProcessor	End Session finished OK.
+20170609.002749	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002749	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002752	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002752	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002752	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002752	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002752	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002752	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002752	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.002752	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002752	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002752	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.002752	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002752	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002752	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002752	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002752	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002752	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.002752	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002752	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002752	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002752	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002752	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.002752	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002752	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002752	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002752	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002752	I	4848	MsgSetHandler	Finished.
+20170609.002752	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002752	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002752	D	4120	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.002752	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002752	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002752	D	4120	RequestProcessor	End Session finished OK.
+20170609.002752	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002752	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002754	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002754	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002754	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002754	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002754	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002754	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002754	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.002754	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002754	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002754	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002754	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002754	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002754	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002754	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002754	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002754	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.002754	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002754	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002754	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002754	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002754	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.002754	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002754	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002754	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002754	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002754	I	4848	MsgSetHandler	Finished.
+20170609.002754	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002754	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002754	D	4120	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.002754	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002754	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002754	D	4120	RequestProcessor	End Session finished OK.
+20170609.002754	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002754	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002757	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002757	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002757	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002757	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002757	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002757	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002757	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.002757	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002757	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002757	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.002757	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002757	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002757	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002757	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002757	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002757	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.002757	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002757	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002757	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002757	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002757	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.002757	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002757	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002757	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002757	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002757	I	4848	MsgSetHandler	Finished.
+20170609.002757	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002757	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002757	D	4120	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.002757	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002757	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002757	D	4120	RequestProcessor	End Session finished OK.
+20170609.002757	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002757	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002800	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002800	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002800	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002800	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002800	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002800	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002800	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.002800	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002800	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002800	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002800	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002800	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002800	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002800	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002800	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002800	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.002800	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002800	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002800	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002800	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002800	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.002800	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002800	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002800	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002800	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002800	I	4848	MsgSetHandler	Finished.
+20170609.002800	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002800	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002800	D	4120	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.002800	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002800	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002800	D	4120	RequestProcessor	End Session finished OK.
+20170609.002800	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002800	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002803	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002803	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002803	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002803	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002803	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002803	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002803	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.002803	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002803	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002803	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.002803	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002803	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002803	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002803	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002803	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002803	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.002803	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002803	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002803	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002803	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002803	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.002803	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002803	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002803	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002803	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002803	I	4848	MsgSetHandler	Finished.
+20170609.002803	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002803	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002803	D	4120	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.002803	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002803	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002803	D	4120	RequestProcessor	End Session finished OK.
+20170609.002803	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002803	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002806	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002806	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002806	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002806	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002806	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002806	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002806	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.002806	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002806	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002806	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.002806	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002806	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002806	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002806	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002806	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002806	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.002806	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002806	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002806	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002806	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002806	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.002806	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002806	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002806	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002806	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002806	I	4848	MsgSetHandler	Finished.
+20170609.002806	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002806	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002806	D	4120	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.002806	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002806	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002806	D	4120	RequestProcessor	End Session finished OK.
+20170609.002806	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002806	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.002808	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002808	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.002808	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.002808	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.002808	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.002808	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.002808	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.002808	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.002808	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.002808	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.002808	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.002808	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.002808	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.002808	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.002808	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.002808	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.002808	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.002808	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.002808	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.002808	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.002808	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.002808	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.002808	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.002808	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.002808	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.002808	I	4848	MsgSetHandler	Finished.
+20170609.002808	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4120), ret = 0.
+20170609.002808	D	4120	RequestProcessor	Finished processing requests, no errors.
+20170609.002808	D	4120	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.002808	D	4120	RequestProcessor	During this session processed 1 request.
+20170609.002808	D	4120	RequestProcessor	Detaching SDK client from QB
+20170609.002808	D	4120	RequestProcessor	End Session finished OK.
+20170609.002808	I	4120	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.002808	I	4120	RequestProcessor	========== Ended Connection ==========
+
+20170609.010353	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.010353	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.010353	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.010353	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.010353	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.010353	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.010353	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.010353	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.010353	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.010353	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.010353	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.010353	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.010353	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.010353	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.010353	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.010353	D	4848	MsgSetHandler	Parsing took 0.0630 seconds
+20170609.010353	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.010353	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.010353	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.010353	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.010353	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.010353	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.010353	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.010353	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.010353	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.010353	I	4848	MsgSetHandler	Finished.
+20170609.010353	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 4884), ret = 0.
+20170609.010353	D	4884	RequestProcessor	Finished processing requests, no errors.
+20170609.010353	D	4884	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.010353	D	4884	RequestProcessor	During this session processed 1 request.
+20170609.010353	D	4884	RequestProcessor	Detaching SDK client from QB
+20170609.010353	D	4884	RequestProcessor	End Session finished OK.
+20170609.010353	I	4884	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.010353	I	4884	RequestProcessor	========== Ended Connection ==========
+
+20170609.111534	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111534	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111534	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111534	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111534	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111534	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111534	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111534	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111534	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111534	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111534	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111534	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111534	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111534	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111534	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111534	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111534	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111534	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111534	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111534	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111534	D	4848	MsgSetHandler	Executing Requests took 0.031 seconds
+20170609.111534	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111534	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111534	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111534	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111534	I	4848	MsgSetHandler	Finished.
+20170609.111534	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111534	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111534	D	1660	RequestProcessor	Processing requests took 0.094 seconds.
+20170609.111534	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111534	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111534	D	1660	RequestProcessor	End Session finished OK.
+20170609.111534	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111534	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111540	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111540	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111540	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111540	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111540	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111540	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111540	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111540	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111540	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111540	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111540	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111540	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111540	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111540	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111540	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111540	D	4848	MsgSetHandler	Parsing took 0.0780 seconds
+20170609.111540	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111540	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111540	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111540	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111540	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111540	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111540	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111540	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111540	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111540	I	4848	MsgSetHandler	Finished.
+20170609.111540	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111540	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111540	D	1660	RequestProcessor	Processing requests took 0.109 seconds.
+20170609.111540	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111540	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111540	D	1660	RequestProcessor	End Session finished OK.
+20170609.111540	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111540	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111543	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111543	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111543	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111543	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111543	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111543	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111543	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.111543	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111543	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111543	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111543	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111543	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111543	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111543	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111543	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111543	D	4848	MsgSetHandler	Parsing took 0.0630 seconds
+20170609.111543	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111543	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111543	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111543	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111543	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111543	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111543	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111543	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111543	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111543	I	4848	MsgSetHandler	Finished.
+20170609.111543	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111543	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111543	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111543	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111543	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111543	D	1660	RequestProcessor	End Session finished OK.
+20170609.111543	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111543	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111546	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111546	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111546	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111546	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111546	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111546	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111546	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111546	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111546	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111546	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111546	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111546	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111546	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111546	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111546	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111546	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111546	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111546	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111546	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111546	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111546	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111546	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111546	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111546	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111546	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111546	I	4848	MsgSetHandler	Finished.
+20170609.111546	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111546	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111546	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111546	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111546	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111546	D	1660	RequestProcessor	End Session finished OK.
+20170609.111546	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111546	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111549	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111549	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111549	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111549	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111549	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111549	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111549	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.111549	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111549	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111549	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111549	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111549	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111549	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111549	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111549	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111549	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111549	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111549	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111549	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111549	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111549	D	4848	MsgSetHandler	Executing Requests took 0.032 seconds
+20170609.111549	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111549	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111549	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111549	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111549	I	4848	MsgSetHandler	Finished.
+20170609.111549	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111549	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111549	D	1660	RequestProcessor	Processing requests took 0.109 seconds.
+20170609.111549	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111549	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111549	D	1660	RequestProcessor	End Session finished OK.
+20170609.111549	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111549	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111551	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111551	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111551	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111551	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111551	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111551	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111551	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111551	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111551	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111551	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111551	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111551	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111551	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111551	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111551	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111551	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111551	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111551	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111551	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111551	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111551	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111551	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111551	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111551	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111551	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111551	I	4848	MsgSetHandler	Finished.
+20170609.111551	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111551	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111551	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111551	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111551	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111551	D	1660	RequestProcessor	End Session finished OK.
+20170609.111551	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111551	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111554	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111554	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111554	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111554	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111554	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111554	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111554	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111554	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111554	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111554	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111554	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111554	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111554	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111554	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111554	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111554	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111554	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111554	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111554	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111554	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111554	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111554	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111554	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111554	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111554	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111554	I	4848	MsgSetHandler	Finished.
+20170609.111554	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111554	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111554	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111554	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111554	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111554	D	1660	RequestProcessor	End Session finished OK.
+20170609.111554	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111554	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111557	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111557	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111557	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111557	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111557	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111557	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111557	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111557	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111557	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111557	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111557	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111557	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111557	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111557	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111557	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111557	D	4848	MsgSetHandler	Parsing took 0.0460 seconds
+20170609.111557	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111557	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111557	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111557	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111557	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111557	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111557	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111557	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111557	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111557	I	4848	MsgSetHandler	Finished.
+20170609.111557	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111557	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111557	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111557	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111557	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111557	D	1660	RequestProcessor	End Session finished OK.
+20170609.111557	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111557	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111600	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111600	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111600	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111600	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111600	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111600	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111600	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.111600	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111600	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111600	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111600	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111600	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111600	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111600	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111600	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111600	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111600	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111600	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111600	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111600	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111600	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111600	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111600	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111600	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111600	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111600	I	4848	MsgSetHandler	Finished.
+20170609.111600	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111600	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111600	D	1660	RequestProcessor	Processing requests took 0.063 seconds.
+20170609.111600	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111600	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111600	D	1660	RequestProcessor	End Session finished OK.
+20170609.111600	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111600	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111603	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111603	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111603	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111603	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111603	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111603	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111603	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111603	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111603	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111603	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111603	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111603	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111603	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111603	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111603	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111603	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111603	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111603	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111603	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111603	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111603	D	4848	MsgSetHandler	Executing Requests took 0.031 seconds
+20170609.111603	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111603	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111603	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111603	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111603	I	4848	MsgSetHandler	Finished.
+20170609.111603	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111603	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111603	D	1660	RequestProcessor	Processing requests took 0.094 seconds.
+20170609.111603	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111603	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111603	D	1660	RequestProcessor	End Session finished OK.
+20170609.111603	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111603	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111606	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111606	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111606	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111606	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111606	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111606	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111606	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.111606	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111606	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111606	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111606	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111606	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111606	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111606	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111606	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111606	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111606	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111606	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111606	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111606	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111606	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111606	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111606	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111606	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111606	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111606	I	4848	MsgSetHandler	Finished.
+20170609.111606	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111606	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111606	D	1660	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.111606	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111606	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111606	D	1660	RequestProcessor	End Session finished OK.
+20170609.111606	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111606	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111608	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111608	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111608	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111608	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111608	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111608	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111608	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111608	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111608	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111608	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111608	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111608	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111608	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111608	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111608	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111608	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111608	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111608	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111608	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111608	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111608	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111608	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111608	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111608	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111608	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111608	I	4848	MsgSetHandler	Finished.
+20170609.111608	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111608	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111608	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111608	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111608	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111608	D	1660	RequestProcessor	End Session finished OK.
+20170609.111608	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111608	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111611	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111611	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111611	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111611	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111611	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111611	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111611	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111611	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111611	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111611	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111611	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111611	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111611	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111611	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111611	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111611	D	4848	MsgSetHandler	Parsing took 0.0460 seconds
+20170609.111611	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111611	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111611	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111611	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111611	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111611	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111611	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111611	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111611	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111611	I	4848	MsgSetHandler	Finished.
+20170609.111611	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111611	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111611	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111611	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111611	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111611	D	1660	RequestProcessor	End Session finished OK.
+20170609.111611	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111611	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111614	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111614	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111614	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111614	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111614	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111614	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111614	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111614	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111614	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111614	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111614	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111614	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111614	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111614	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111614	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111614	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111614	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111614	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111614	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111614	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111614	D	4848	MsgSetHandler	Executing Requests took 0.031 seconds
+20170609.111614	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111614	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111614	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111614	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111614	I	4848	MsgSetHandler	Finished.
+20170609.111614	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111614	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111614	D	1660	RequestProcessor	Processing requests took 0.093 seconds.
+20170609.111614	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111614	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111614	D	1660	RequestProcessor	End Session finished OK.
+20170609.111614	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111614	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111617	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111617	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111617	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111617	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111617	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111617	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111617	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111617	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111617	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111617	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111617	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111617	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111617	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111617	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111617	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111617	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111617	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111617	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111617	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111617	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111617	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111617	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111617	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111617	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111617	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111617	I	4848	MsgSetHandler	Finished.
+20170609.111617	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111617	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111617	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111617	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111617	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111617	D	1660	RequestProcessor	End Session finished OK.
+20170609.111617	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111617	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111620	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111620	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111620	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111620	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111620	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111620	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111620	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111620	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111620	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111620	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111620	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111620	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111620	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111620	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111620	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111620	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111620	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111620	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111620	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111620	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111620	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111620	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111620	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111620	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111620	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111620	I	4848	MsgSetHandler	Finished.
+20170609.111620	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111620	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111620	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111620	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111620	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111620	D	1660	RequestProcessor	End Session finished OK.
+20170609.111620	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111620	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111623	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111623	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111623	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111623	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111623	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111623	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111623	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.111623	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111623	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111623	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111623	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111623	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111623	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111623	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111623	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111623	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111623	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111623	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111623	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111623	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111623	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111623	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111623	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111623	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111623	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111623	I	4848	MsgSetHandler	Finished.
+20170609.111623	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111623	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111623	D	1660	RequestProcessor	Processing requests took 0.063 seconds.
+20170609.111623	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111623	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111623	D	1660	RequestProcessor	End Session finished OK.
+20170609.111623	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111623	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111626	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111626	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111626	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111626	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111626	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111626	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111626	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111626	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111626	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111626	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111626	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111626	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111626	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111626	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111626	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111626	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111626	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111626	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111626	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111626	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111626	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111626	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111626	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111626	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111626	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111626	I	4848	MsgSetHandler	Finished.
+20170609.111626	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111626	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111626	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111626	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111626	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111626	D	1660	RequestProcessor	End Session finished OK.
+20170609.111626	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111626	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111628	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111628	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111628	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111628	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111628	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111628	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111628	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111628	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111628	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111628	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111628	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111628	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111628	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111628	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111628	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111628	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111628	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111628	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111628	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111628	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111628	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111628	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111628	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111628	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111628	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111628	I	4848	MsgSetHandler	Finished.
+20170609.111628	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111628	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111628	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111628	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111628	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111628	D	1660	RequestProcessor	End Session finished OK.
+20170609.111628	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111628	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111631	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111631	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111631	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111631	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111631	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111631	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111631	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.111631	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111631	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111631	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111631	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111631	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111631	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111631	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111631	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111631	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111631	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111631	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111631	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111631	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111631	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111631	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111631	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111631	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111631	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111631	I	4848	MsgSetHandler	Finished.
+20170609.111631	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111631	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111631	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111631	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111631	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111631	D	1660	RequestProcessor	End Session finished OK.
+20170609.111631	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111631	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111634	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111634	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111634	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111634	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111634	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111634	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111634	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.111634	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111634	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111634	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111634	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111634	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111634	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111634	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111634	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111634	D	4848	MsgSetHandler	Parsing took 0.0630 seconds
+20170609.111634	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111634	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111634	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111634	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111634	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111634	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111634	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111634	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111634	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111634	I	4848	MsgSetHandler	Finished.
+20170609.111634	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111634	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111634	D	1660	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.111634	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111634	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111634	D	1660	RequestProcessor	End Session finished OK.
+20170609.111634	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111634	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111637	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111637	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111637	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111637	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111637	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111637	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111637	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.111637	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111637	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111637	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111637	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111637	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111637	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111637	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111637	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111637	D	4848	MsgSetHandler	Parsing took 0.0630 seconds
+20170609.111637	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111637	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111637	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111637	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111637	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111637	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111637	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111637	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111637	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111637	I	4848	MsgSetHandler	Finished.
+20170609.111637	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111637	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111637	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111637	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111637	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111637	D	1660	RequestProcessor	End Session finished OK.
+20170609.111637	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111637	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111640	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111640	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111640	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111640	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111640	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111640	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111640	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111640	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111640	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111640	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111640	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111640	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111640	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111640	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111640	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111640	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111640	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111640	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111640	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111640	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111640	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111640	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111640	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111640	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111640	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111640	I	4848	MsgSetHandler	Finished.
+20170609.111640	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111640	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111640	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111640	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111640	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111640	D	1660	RequestProcessor	End Session finished OK.
+20170609.111640	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111640	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111643	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111643	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111643	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111643	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111643	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111643	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111643	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111643	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111643	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111643	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111643	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111643	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111643	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111643	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111643	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111643	D	4848	MsgSetHandler	Parsing took 0.0630 seconds
+20170609.111643	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111643	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111643	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111643	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111643	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111643	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111643	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111643	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111643	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111643	I	4848	MsgSetHandler	Finished.
+20170609.111643	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111643	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111643	D	1660	RequestProcessor	Processing requests took 0.094 seconds.
+20170609.111643	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111643	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111643	D	1660	RequestProcessor	End Session finished OK.
+20170609.111643	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111643	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111645	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111645	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111645	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111645	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111645	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111645	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111645	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0160 seconds
+20170609.111645	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111645	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111645	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111645	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111645	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111645	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111645	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111646	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111646	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111646	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111646	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111646	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111646	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111646	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111646	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111646	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111646	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111646	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111646	I	4848	MsgSetHandler	Finished.
+20170609.111646	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111646	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111646	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111646	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111646	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111646	D	1660	RequestProcessor	End Session finished OK.
+20170609.111646	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111646	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111648	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111648	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111648	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111648	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111648	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111648	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111648	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111648	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111648	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111648	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111648	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111648	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111648	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111648	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111648	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111648	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111648	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111648	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111648	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111648	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111648	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111648	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111648	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111648	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111648	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111648	I	4848	MsgSetHandler	Finished.
+20170609.111648	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111648	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111648	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111648	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111648	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111648	D	1660	RequestProcessor	End Session finished OK.
+20170609.111648	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111648	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111651	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111651	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111651	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111651	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111651	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111651	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111651	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111651	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111651	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111651	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111651	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111651	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111651	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111651	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111651	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111651	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111651	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111651	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111651	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111651	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111651	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111651	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111651	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111651	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111651	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111651	I	4848	MsgSetHandler	Finished.
+20170609.111651	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111651	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111651	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111651	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111651	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111651	D	1660	RequestProcessor	End Session finished OK.
+20170609.111651	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111651	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111654	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111654	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111654	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111654	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111654	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111654	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111654	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111654	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111654	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111654	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111654	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111654	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111654	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111654	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111654	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111654	D	4848	MsgSetHandler	Parsing took 0.0460 seconds
+20170609.111654	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111654	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111654	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111654	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111654	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111654	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111654	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111654	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111654	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111654	I	4848	MsgSetHandler	Finished.
+20170609.111654	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111654	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111654	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111654	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111654	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111654	D	1660	RequestProcessor	End Session finished OK.
+20170609.111654	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111654	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111657	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111657	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111657	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111657	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111657	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111657	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111657	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.111657	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111657	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111657	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111657	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111657	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111657	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111657	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111657	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111657	D	4848	MsgSetHandler	Parsing took 0.0630 seconds
+20170609.111657	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111657	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111657	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111657	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111657	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111657	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111657	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111657	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111657	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111657	I	4848	MsgSetHandler	Finished.
+20170609.111657	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111657	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111657	D	1660	RequestProcessor	Processing requests took 0.062 seconds.
+20170609.111657	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111657	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111657	D	1660	RequestProcessor	End Session finished OK.
+20170609.111657	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111657	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111700	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111700	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111700	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111700	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111700	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111700	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111700	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0150 seconds
+20170609.111700	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111700	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111700	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111700	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111700	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111700	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111700	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111700	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111700	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111700	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111700	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111700	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111700	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111700	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111700	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111700	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111700	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111700	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111700	I	4848	MsgSetHandler	Finished.
+20170609.111700	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111700	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111700	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111700	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111700	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111700	D	1660	RequestProcessor	End Session finished OK.
+20170609.111700	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111700	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111703	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111703	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111703	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111703	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111703	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111703	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111703	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111703	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111703	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111703	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111703	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111703	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111703	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111703	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111703	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111703	D	4848	MsgSetHandler	Parsing took 0.0620 seconds
+20170609.111703	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111703	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111703	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111703	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111703	D	4848	MsgSetHandler	Executing Requests took 0.000 seconds
+20170609.111703	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111703	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111703	D	4848	MsgSetHandler	Writing Response took 0.016 seconds
+20170609.111703	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111703	I	4848	MsgSetHandler	Finished.
+20170609.111703	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111703	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111703	D	1660	RequestProcessor	Processing requests took 0.093 seconds.
+20170609.111703	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111703	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111703	D	1660	RequestProcessor	End Session finished OK.
+20170609.111703	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111703	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111705	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111705	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111705	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111705	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111705	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111705	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111705	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111705	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111705	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111705	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111705	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111705	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111705	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111705	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111705	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111705	D	4848	MsgSetHandler	Parsing took 0.0460 seconds
+20170609.111705	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111705	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111705	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111705	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111705	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111705	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111705	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111705	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111705	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111705	I	4848	MsgSetHandler	Finished.
+20170609.111705	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111705	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111705	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111705	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111705	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111705	D	1660	RequestProcessor	End Session finished OK.
+20170609.111705	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111705	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111708	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111708	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111708	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111708	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111708	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111708	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111708	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111708	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111708	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111708	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0150 seconds
+20170609.111708	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111708	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111708	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111708	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111708	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111708	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111708	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111708	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111708	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111708	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111708	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111708	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111708	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111708	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111708	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111708	I	4848	MsgSetHandler	Finished.
+20170609.111708	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111708	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111708	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111708	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111708	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111708	D	1660	RequestProcessor	End Session finished OK.
+20170609.111708	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111708	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111711	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111711	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111711	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111711	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111711	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111711	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111711	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111711	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111711	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111711	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111711	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111711	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111711	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111711	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111711	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111711	D	4848	MsgSetHandler	Parsing took 0.0470 seconds
+20170609.111711	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111711	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111711	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111711	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111711	D	4848	MsgSetHandler	Executing Requests took 0.015 seconds
+20170609.111711	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111711	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111711	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111711	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111711	I	4848	MsgSetHandler	Finished.
+20170609.111711	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111711	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111711	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111711	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111711	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111711	D	1660	RequestProcessor	End Session finished OK.
+20170609.111711	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111711	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.111714	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111714	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.111714	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.111714	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.111714	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.111714	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.111714	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0000 seconds
+20170609.111714	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.111714	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.111714	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170609.111714	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.111714	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.111714	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.111714	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.111714	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.111714	D	4848	MsgSetHandler	Parsing took 0.0460 seconds
+20170609.111714	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.111714	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.111714	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.111714	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.111714	D	4848	MsgSetHandler	Executing Requests took 0.016 seconds
+20170609.111714	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.111714	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.111714	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.111714	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.111714	I	4848	MsgSetHandler	Finished.
+20170609.111714	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 1660), ret = 0.
+20170609.111714	D	1660	RequestProcessor	Finished processing requests, no errors.
+20170609.111714	D	1660	RequestProcessor	Processing requests took 0.078 seconds.
+20170609.111714	D	1660	RequestProcessor	During this session processed 1 request.
+20170609.111714	D	1660	RequestProcessor	Detaching SDK client from QB
+20170609.111714	D	1660	RequestProcessor	End Session finished OK.
+20170609.111714	I	1660	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.111714	I	1660	RequestProcessor	========== Ended Connection ==========
+
+20170609.112459	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.112459	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.112459	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.112459	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.112459	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.112459	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.112459	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.112459	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.112459	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.112459	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.112459	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.112459	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.112459	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.112459	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.112459	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.112459	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.112459	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.112459	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.112459	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.112459	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.112459	D	4848	MsgSetHandler	Executing Requests took 0.007 seconds
+20170609.112459	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.112459	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.112459	D	4848	MsgSetHandler	Writing Response took 0.001 seconds
+20170609.112459	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.112459	I	4848	MsgSetHandler	Finished.
+20170609.112459	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 6056), ret = 0.
+20170609.112459	D	6056	RequestProcessor	Finished processing requests, no errors.
+20170609.112459	D	6056	RequestProcessor	Processing requests took 0.072 seconds.
+20170609.112459	D	6056	RequestProcessor	During this session processed 1 request.
+20170609.112459	D	6056	RequestProcessor	Detaching SDK client from QB
+20170609.112459	D	6056	RequestProcessor	End Session finished OK.
+20170609.112459	I	6056	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.112459	I	6056	RequestProcessor	========== Ended Connection ==========
+
+20170609.112614	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.112614	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.112614	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.112614	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.112614	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.112614	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.112614	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.112614	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.112614	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.112614	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.112614	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.112614	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.112614	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.112614	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.112614	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.112614	D	4848	MsgSetHandler	Parsing took 0.0550 seconds
+20170609.112614	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.112614	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.112614	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.112614	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.112614	D	4848	MsgSetHandler	Executing Requests took 0.007 seconds
+20170609.112614	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.112614	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.112614	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.112614	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.112614	I	4848	MsgSetHandler	Finished.
+20170609.112614	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 7580), ret = 0.
+20170609.112614	D	7580	RequestProcessor	Finished processing requests, no errors.
+20170609.112614	D	7580	RequestProcessor	Processing requests took 0.072 seconds.
+20170609.112614	D	7580	RequestProcessor	During this session processed 1 request.
+20170609.112614	D	7580	RequestProcessor	Detaching SDK client from QB
+20170609.112614	D	7580	RequestProcessor	End Session finished OK.
+20170609.112614	I	7580	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.112614	I	7580	RequestProcessor	========== Ended Connection ==========
+
+20170609.113725	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113725	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.113725	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.113725	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.113725	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.113725	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.113725	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.113725	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.113725	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.113725	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.113726	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.113726	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.113726	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.113726	D	4848	QBXMLMsgs	CheckAddRq
+20170609.113726	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.113726	D	4848	MsgSetHandler	Parsing took 0.0750 seconds
+20170609.113726	I	4848	QBSDKMsgSetHandler	ADD: Check
+20170609.113726	E	4848	CheckStorage::DoAdd	Failed to save Check QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.113726	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.113726	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.113726	D	4848	MsgSetHandler	Executing Requests took 0.205 seconds
+20170609.113726	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.113726	D	4848	MsgSetHandler	Response is 465 characters long
+20170609.113726	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.113726	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113726	I	4848	MsgSetHandler	Finished.
+20170609.113726	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5396), ret = 0.
+20170609.113726	D	5396	RequestProcessor	Finished processing requests, no errors.
+20170609.113726	D	5396	RequestProcessor	Processing requests took 0.350 seconds.
+20170609.113726	D	5396	RequestProcessor	During this session processed 1 request.
+20170609.113726	D	5396	RequestProcessor	Detaching SDK client from QB
+20170609.113726	D	5396	RequestProcessor	End Session finished OK.
+20170609.113726	I	5396	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.113726	I	5396	RequestProcessor	========== Ended Connection ==========
+
+20170609.113729	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113729	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.113729	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.113729	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.113729	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.113729	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.113729	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0090 seconds
+20170609.113729	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.113729	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.113729	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.113729	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.113729	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.113729	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.113729	D	4848	QBXMLMsgs	CheckAddRq
+20170609.113729	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.113729	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.113729	I	4848	QBSDKMsgSetHandler	ADD: Check
+20170609.113729	E	4848	CheckStorage::DoAdd	Failed to save Check QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.113729	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.113729	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.113729	D	4848	MsgSetHandler	Executing Requests took 0.004 seconds
+20170609.113729	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.113729	D	4848	MsgSetHandler	Response is 465 characters long
+20170609.113729	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.113729	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113729	I	4848	MsgSetHandler	Finished.
+20170609.113729	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5396), ret = 0.
+20170609.113729	D	5396	RequestProcessor	Finished processing requests, no errors.
+20170609.113729	D	5396	RequestProcessor	Processing requests took 0.072 seconds.
+20170609.113729	D	5396	RequestProcessor	During this session processed 1 request.
+20170609.113729	D	5396	RequestProcessor	Detaching SDK client from QB
+20170609.113729	D	5396	RequestProcessor	End Session finished OK.
+20170609.113729	I	5396	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.113729	I	5396	RequestProcessor	========== Ended Connection ==========
+
+20170609.113732	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113732	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.113732	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.113732	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.113732	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.113732	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.113732	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.113732	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.113732	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.113732	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.113732	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.113732	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.113732	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.113732	D	4848	QBXMLMsgs	CheckAddRq
+20170609.113732	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.113732	D	4848	MsgSetHandler	Parsing took 0.0550 seconds
+20170609.113732	I	4848	QBSDKMsgSetHandler	ADD: Check
+20170609.113732	E	4848	CheckStorage::DoAdd	Failed to save Check QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.113732	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.113732	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.113732	D	4848	MsgSetHandler	Executing Requests took 0.004 seconds
+20170609.113732	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.113732	D	4848	MsgSetHandler	Response is 465 characters long
+20170609.113732	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.113732	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113732	I	4848	MsgSetHandler	Finished.
+20170609.113732	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5396), ret = 0.
+20170609.113732	D	5396	RequestProcessor	Finished processing requests, no errors.
+20170609.113732	D	5396	RequestProcessor	Processing requests took 0.071 seconds.
+20170609.113732	D	5396	RequestProcessor	During this session processed 1 request.
+20170609.113732	D	5396	RequestProcessor	Detaching SDK client from QB
+20170609.113732	D	5396	RequestProcessor	End Session finished OK.
+20170609.113732	I	5396	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.113732	I	5396	RequestProcessor	========== Ended Connection ==========
+
+20170609.113734	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113734	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.113734	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.113734	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.113734	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.113734	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.113734	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.113734	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.113734	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.113734	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.113734	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.113734	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.113734	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.113735	D	4848	QBXMLMsgs	CheckAddRq
+20170609.113735	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.113735	D	4848	MsgSetHandler	Parsing took 0.0550 seconds
+20170609.113735	I	4848	QBSDKMsgSetHandler	ADD: Check
+20170609.113735	E	4848	CheckStorage::DoAdd	Failed to save Check QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.113735	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.113735	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.113735	D	4848	MsgSetHandler	Executing Requests took 0.003 seconds
+20170609.113735	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.113735	D	4848	MsgSetHandler	Response is 465 characters long
+20170609.113735	D	4848	MsgSetHandler	Writing Response took 0.001 seconds
+20170609.113735	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113735	I	4848	MsgSetHandler	Finished.
+20170609.113735	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5396), ret = 0.
+20170609.113735	D	5396	RequestProcessor	Finished processing requests, no errors.
+20170609.113735	D	5396	RequestProcessor	Processing requests took 0.069 seconds.
+20170609.113735	D	5396	RequestProcessor	During this session processed 1 request.
+20170609.113735	D	5396	RequestProcessor	Detaching SDK client from QB
+20170609.113735	D	5396	RequestProcessor	End Session finished OK.
+20170609.113735	I	5396	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.113735	I	5396	RequestProcessor	========== Ended Connection ==========
+
+20170609.113738	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113738	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.113738	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.113738	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.113738	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.113738	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.113738	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0090 seconds
+20170609.113738	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.113738	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.113738	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.113738	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.113738	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.113738	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.113738	D	4848	QBXMLMsgs	CheckAddRq
+20170609.113738	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.113738	D	4848	MsgSetHandler	Parsing took 0.0570 seconds
+20170609.113738	I	4848	QBSDKMsgSetHandler	ADD: Check
+20170609.113738	E	4848	CheckStorage::DoAdd	Failed to save Check QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.113738	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.113738	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.113738	D	4848	MsgSetHandler	Executing Requests took 0.004 seconds
+20170609.113738	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.113738	D	4848	MsgSetHandler	Response is 465 characters long
+20170609.113738	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.113738	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113738	I	4848	MsgSetHandler	Finished.
+20170609.113738	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5396), ret = 0.
+20170609.113738	D	5396	RequestProcessor	Finished processing requests, no errors.
+20170609.113738	D	5396	RequestProcessor	Processing requests took 0.072 seconds.
+20170609.113738	D	5396	RequestProcessor	During this session processed 1 request.
+20170609.113738	D	5396	RequestProcessor	Detaching SDK client from QB
+20170609.113738	D	5396	RequestProcessor	End Session finished OK.
+20170609.113738	I	5396	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.113738	I	5396	RequestProcessor	========== Ended Connection ==========
+
+20170609.113741	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113741	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.113741	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.113741	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.113741	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.113741	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.113741	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.113741	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.113741	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.113741	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.113741	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.113741	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.113741	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.113741	D	4848	QBXMLMsgs	CheckAddRq
+20170609.113741	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.113741	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.113741	I	4848	QBSDKMsgSetHandler	ADD: Check
+20170609.113741	E	4848	CheckStorage::DoAdd	Failed to save Check QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.113741	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.113741	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.113741	D	4848	MsgSetHandler	Executing Requests took 0.004 seconds
+20170609.113741	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.113741	D	4848	MsgSetHandler	Response is 465 characters long
+20170609.113741	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.113741	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.113741	I	4848	MsgSetHandler	Finished.
+20170609.113741	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5396), ret = 0.
+20170609.113741	D	5396	RequestProcessor	Finished processing requests, no errors.
+20170609.113741	D	5396	RequestProcessor	Processing requests took 0.071 seconds.
+20170609.113741	D	5396	RequestProcessor	During this session processed 1 request.
+20170609.113741	D	5396	RequestProcessor	Detaching SDK client from QB
+20170609.113741	D	5396	RequestProcessor	End Session finished OK.
+20170609.113741	I	5396	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.113741	I	5396	RequestProcessor	========== Ended Connection ==========
+
+20170609.123351	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123351	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123351	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123351	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123351	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123351	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123351	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0090 seconds
+20170609.123351	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123351	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123351	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.123351	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123351	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123351	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.123351	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123351	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123351	D	4848	MsgSetHandler	Parsing took 0.1050 seconds
+20170609.123351	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123351	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123351	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123351	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123351	D	4848	MsgSetHandler	Executing Requests took 0.028 seconds
+20170609.123351	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123351	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123351	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.123351	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123351	I	4848	MsgSetHandler	Finished.
+20170609.123351	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123351	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123351	D	2800	RequestProcessor	Processing requests took 0.145 seconds.
+20170609.123351	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123351	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123351	D	2800	RequestProcessor	End Session finished OK.
+20170609.123351	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123351	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123354	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123354	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123354	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123354	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123354	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123354	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123354	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.123354	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123354	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123354	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.123354	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123354	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123354	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.123354	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123354	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123354	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.123354	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123354	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123354	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123354	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123354	D	4848	MsgSetHandler	Executing Requests took 0.008 seconds
+20170609.123354	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123354	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123354	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.123354	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123354	I	4848	MsgSetHandler	Finished.
+20170609.123354	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123354	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123354	D	2800	RequestProcessor	Processing requests took 0.075 seconds.
+20170609.123354	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123354	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123354	D	2800	RequestProcessor	End Session finished OK.
+20170609.123354	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123354	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123357	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123357	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123357	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123357	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123357	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123357	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123357	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.123357	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123357	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123357	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.123357	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123357	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123357	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.123357	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123357	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123357	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.123357	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123357	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123357	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123357	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123357	D	4848	MsgSetHandler	Executing Requests took 0.024 seconds
+20170609.123357	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123357	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123357	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.123357	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123357	I	4848	MsgSetHandler	Finished.
+20170609.123357	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123357	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123357	D	2800	RequestProcessor	Processing requests took 0.091 seconds.
+20170609.123357	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123357	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123357	D	2800	RequestProcessor	End Session finished OK.
+20170609.123357	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123357	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123400	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123400	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123400	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123400	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123400	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123400	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123400	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.123400	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123400	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123400	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.123400	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123400	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123400	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.123400	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123400	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123400	D	4848	MsgSetHandler	Parsing took 0.0600 seconds
+20170609.123400	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123400	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123400	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123400	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123400	D	4848	MsgSetHandler	Executing Requests took 0.007 seconds
+20170609.123400	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123400	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123400	D	4848	MsgSetHandler	Writing Response took 0.001 seconds
+20170609.123400	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123400	I	4848	MsgSetHandler	Finished.
+20170609.123400	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123400	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123400	D	2800	RequestProcessor	Processing requests took 0.080 seconds.
+20170609.123400	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123400	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123400	D	2800	RequestProcessor	End Session finished OK.
+20170609.123400	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123400	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123403	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123403	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123403	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123403	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123403	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123403	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123403	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.123403	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123403	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123403	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0070 seconds
+20170609.123403	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123403	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123403	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.123403	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123403	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123403	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.123403	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123403	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123403	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123403	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123403	D	4848	MsgSetHandler	Executing Requests took 0.007 seconds
+20170609.123403	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123403	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123403	D	4848	MsgSetHandler	Writing Response took 0.001 seconds
+20170609.123403	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123403	I	4848	MsgSetHandler	Finished.
+20170609.123403	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123403	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123403	D	2800	RequestProcessor	Processing requests took 0.074 seconds.
+20170609.123403	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123403	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123403	D	2800	RequestProcessor	End Session finished OK.
+20170609.123403	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123403	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123406	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123406	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123406	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123406	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123406	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123406	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123406	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.123406	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123406	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123406	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.123406	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123406	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123406	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.123406	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123406	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123406	D	4848	MsgSetHandler	Parsing took 0.0560 seconds
+20170609.123406	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123406	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123406	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123406	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123406	D	4848	MsgSetHandler	Executing Requests took 0.008 seconds
+20170609.123406	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123406	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123406	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.123406	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123406	I	4848	MsgSetHandler	Finished.
+20170609.123406	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123406	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123406	D	2800	RequestProcessor	Processing requests took 0.075 seconds.
+20170609.123406	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123406	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123406	D	2800	RequestProcessor	End Session finished OK.
+20170609.123406	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123406	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123408	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123408	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123408	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123408	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123408	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123408	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123408	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0090 seconds
+20170609.123408	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123408	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123408	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0100 seconds
+20170609.123408	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123408	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123408	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.123408	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123408	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123408	D	4848	MsgSetHandler	Parsing took 0.0580 seconds
+20170609.123408	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123409	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123409	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123409	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123409	D	4848	MsgSetHandler	Executing Requests took 0.022 seconds
+20170609.123409	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123409	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123409	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.123409	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123409	I	4848	MsgSetHandler	Finished.
+20170609.123409	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123409	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123409	D	2800	RequestProcessor	Processing requests took 0.091 seconds.
+20170609.123409	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123409	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123409	D	2800	RequestProcessor	End Session finished OK.
+20170609.123409	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123409	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123411	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123411	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123411	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123411	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123411	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123411	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123411	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0080 seconds
+20170609.123411	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123411	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123411	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.123411	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123411	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123411	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0010 seconds
+20170609.123411	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123411	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123411	D	4848	MsgSetHandler	Parsing took 0.0570 seconds
+20170609.123411	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123411	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123411	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123411	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123411	D	4848	MsgSetHandler	Executing Requests took 0.006 seconds
+20170609.123411	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123411	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123411	D	4848	MsgSetHandler	Writing Response took 0.001 seconds
+20170609.123411	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123411	I	4848	MsgSetHandler	Finished.
+20170609.123411	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123411	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123411	D	2800	RequestProcessor	Processing requests took 0.074 seconds.
+20170609.123411	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123411	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123411	D	2800	RequestProcessor	End Session finished OK.
+20170609.123411	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123411	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170609.123414	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123414	V	4848	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170609.123414	V	4848	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170609.123414	V	4848	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170609.123414	V	4848	XercesSAXEntityResolver	qbxmlops120.dtd
+20170609.123414	V	4848	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170609.123414	V	4848	XercesSAXEntityResolver	Resolving Public Entity took 0.0140 seconds
+20170609.123414	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170609.123414	V	4848	ParseManager	Getting SDKResource: qbxml120.dtd
+20170609.123414	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0080 seconds
+20170609.123414	V	4848	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170609.123414	V	4848	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170609.123414	V	4848	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170609.123414	D	4848	QBXMLMsgs	InvoiceAddRq
+20170609.123414	I	4848	SpecVersion	Current version of qbXML in use: 12.0
+20170609.123414	D	4848	MsgSetHandler	Parsing took 0.0640 seconds
+20170609.123414	I	4848	QBSDKMsgSetHandler	ADD: Invoice
+20170609.123414	E	4848	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170609.123414	I	4848	QBSDKMsgSetHandler	Request  failed.
+20170609.123414	D	4848	QBSDKMsgSetHandler	There was 1 request processed.
+20170609.123414	D	4848	MsgSetHandler	Executing Requests took 0.007 seconds
+20170609.123414	D	4848	MsgSetHandler	Creating Response took 0.000 seconds
+20170609.123414	D	4848	MsgSetHandler	Response is 471 characters long
+20170609.123414	D	4848	MsgSetHandler	Writing Response took 0.000 seconds
+20170609.123414	D	4848	MacroManager::DumpMacroMap	Map contains no entries
+20170609.123414	I	4848	MsgSetHandler	Finished.
+20170609.123414	I	4848	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 2800), ret = 0.
+20170609.123414	D	2800	RequestProcessor	Finished processing requests, no errors.
+20170609.123414	D	2800	RequestProcessor	Processing requests took 0.082 seconds.
+20170609.123414	D	2800	RequestProcessor	During this session processed 1 request.
+20170609.123414	D	2800	RequestProcessor	Detaching SDK client from QB
+20170609.123414	D	2800	RequestProcessor	End Session finished OK.
+20170609.123414	I	2800	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170609.123414	I	2800	RequestProcessor	========== Ended Connection ==========
+
+20170612.005748	D	5652	MacroManager::DumpMacroMap	Map contains no entries
+20170612.005748	V	5652	XercesSAXParseManager	Using Xerces-c parser, version 2_5_0
+20170612.005748	V	5652	XMLDtdMapper	TransformProcessingInstruction using DOCTYPE: <!DOCTYPE QBXML PUBLIC '-//INTUIT//DTD QBXML QBD 12.0//EN' 'http://developer.intuit.com'>
+
+20170612.005748	V	5652	XercesSAXEntityResolver	Resolving public ID: -//INTUIT//DTD QBXML QBD 12.0//EN
+20170612.005748	V	5652	XercesSAXEntityResolver	qbxmlops120.dtd
+20170612.005748	V	5652	ParseManager	Getting SDKResource: qbxmlops120.dtd
+20170612.005748	V	5652	XercesSAXEntityResolver	Resolving Public Entity took 0.0220 seconds
+20170612.005748	V	5652	XercesSAXEntityResolver	Resolving system ID: qbxml120.dtd
+20170612.005748	V	5652	ParseManager	Getting SDKResource: qbxml120.dtd
+20170612.005748	V	5652	XercesSAXEntityResolver	Resolving System Entity took 0.0160 seconds
+20170612.005748	V	5652	XercesSAXEntityResolver	Resolving system ID: qbxmlso120.dtd
+20170612.005748	V	5652	ParseManager	Getting SDKResource: qbxmlso120.dtd
+20170612.005748	V	5652	XercesSAXEntityResolver	Resolving System Entity took 0.0000 seconds
+20170612.005748	D	5652	QBXMLMsgs	InvoiceAddRq
+20170612.005748	I	5652	SpecVersion	Current version of qbXML in use: 12.0
+20170612.005748	D	5652	MsgSetHandler	Parsing took 0.1580 seconds
+20170612.005748	I	5652	QBSDKMsgSetHandler	ADD: Invoice
+20170612.005749	E	5652	InvoiceStorage::DoAdd	Failed to save Invoice QuickBooks error message: The transaction is empty. HRESULT=0x80041006
+20170612.005749	I	5652	QBSDKMsgSetHandler	Request  failed.
+20170612.005749	D	5652	QBSDKMsgSetHandler	There was 1 request processed.
+20170612.005749	D	5652	MsgSetHandler	Executing Requests took 0.176 seconds
+20170612.005749	D	5652	MsgSetHandler	Creating Response took 0.000 seconds
+20170612.005749	D	5652	MsgSetHandler	Response is 471 characters long
+20170612.005749	D	5652	MsgSetHandler	Writing Response took 0.001 seconds
+20170612.005749	D	5652	MacroManager::DumpMacroMap	Map contains no entries
+20170612.005749	I	5652	MsgSetHandler	Finished.
+20170612.005749	I	5652	QBSDKProcessRequest	Application named 'Quickbooks Python' finishing requests (process 5524), ret = 0.
+20170612.005749	D	5524	RequestProcessor	Finished processing requests, no errors.
+20170612.005749	D	5524	RequestProcessor	Processing requests took 1.032 seconds.
+20170612.005749	D	5524	RequestProcessor	During this session processed 1 request.
+20170612.005749	D	5524	RequestProcessor	Detaching SDK client from QB
+20170612.005749	D	5524	RequestProcessor	End Session finished OK.
+20170612.005749	I	5524	RequestProcessor	Connection closed by app named 'Quickbooks Python'
+20170612.005749	I	5524	RequestProcessor	========== Ended Connection ==========

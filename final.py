@@ -1,3 +1,6 @@
+"""This file will merge the company files"""
+
+
 import codecs
 import glob
 import json
@@ -160,7 +163,8 @@ ordering = ["{} => {}".format(xml_files.index(x), x.split('\\')[-1].split('.')[0
 print "\n".join(ordering)
 
 
-for xml_file in xml_files[18:]:
+def process_xml_file(xml_file):
+    print 'whopa'
     extra = None
     xml_name = xml_file.split('\\')[-1].split('.')[0]
 
@@ -168,10 +172,13 @@ for xml_file in xml_files[18:]:
         with codecs.open(xml_file, 'r', 'utf-8') as f:
             transaction_xml = xmltodict.parse(f.read())
             data = OrderedDict()
-            result = data_conditioner(data=getattr(objects_models, "{}AddModel".format(xml_name))['elements'], new_data=data)
+            result = data_conditioner(data=getattr(objects_models, "{}AddModel".format(xml_name))['elements'],
+                                      new_data=data)
             data_to_push = OrderedDict()
 
-            transactions = condition_push(transaction_xml['QBXML']['QBXMLMsgsRs']['{}QueryRs'.format(xml_name)]['{}Ret'.format(xml_name)], data_to_push, result)
+            transactions = condition_push(
+                transaction_xml['QBXML']['QBXMLMsgsRs']['{}QueryRs'.format(xml_name)]['{}Ret'.format(xml_name)],
+                data_to_push, result)
             resource_object = getattr(resource, xml_name)(quickbooks_file_location=company_target)
             for transaction in transactions:
                 print xml_name
@@ -179,55 +186,72 @@ for xml_file in xml_files[18:]:
                 if xml_name == 'ReceivePayment':
                     extra = OrderedDict([('IsAutoApply', 1)])
 
-
+                if xml_name == 'Invoice':
+                    # Invoice need to have a amount in it !
+                    pass
+                    extra = OrderedDict([('AppliedAmount', 100), ('TotalAmount ', 300), ])
 
                 res = resource_object.create(payload=transaction, extra=extra)
                 if res:
                     res = xmltodict.parse(res)
                     if 'QBXML' in res:
+                        # Check if there is msg
+                        if res['QBXML']['QBXMLMsgsRs']:
+                            result_tag = res['QBXML']['QBXMLMsgsRs']['{}AddRs'.format(xml_name)]
+                            status = result_tag['@statusCode']
+                            severity = result_tag['@statusSeverity']
+                            message = result_tag['@statusMessage']
 
-                        result_tag = res['QBXML']['QBXMLMsgsRs']['{}AddRs'.format(xml_name)]
-                        status = result_tag['@statusCode']
-                        severity = result_tag['@statusSeverity']
-                        message = result_tag['@statusMessage']
+                            if int(status) == 3180:
+                                print 'Duplicate'
+                                log_str = get_log(log_file)
+                                print resource_object.qbxml
+                                print message
+                                with open('logfile.txt', 'a+') as f:
+                                    f.write(log_str)
 
-                        if int(status) == 3180:
-                            print 'Duplicate'
-                        elif int(status) ==3100:
-                            print "Already in use"
-                        elif int(status) ==3153:
-                            print "Element may not be used : {}".format(message)
-                        elif int(status) ==3240:
-                            # Quickbooks has consistency with fullName in refs
+                            elif int(status) == 3100:
+                                print "Already in use"
+                            elif int(status) == 3153:
+                                print "Element may not be used : {}".format(message)
+                            elif int(status) == 3240:
+                                # Quickbooks has consistency with fullName in refs
 
-                            ref = re.match('Object "(.*?)"',message).groups()[0]
+                                ref = re.match('Object "(.*?)"', message).groups()[0]
 
-                            js = xmltodict.parse(resource_object.qbxml)
-                            ref_result = find_ref(js, ref)
-                            transaction_name = ref_result[0]
-                            if transaction_name:
-                                print "Transaction name : {}".format(transaction_name)
-                                tr = getattr(resource, transaction_name)(company_target)
-                                res = xmltodict.parse(tr.retrieve(FullName=ref_result[1]))
+                                js = xmltodict.parse(resource_object.qbxml)
+                                ref_result = find_ref(js, ref)
+                                transaction_name = ref_result[0]
+                                if transaction_name:
+                                    print "Transaction name : {}".format(transaction_name)
+                                    tr = getattr(resource, transaction_name)(company_target)
+                                    res = xmltodict.parse(tr.retrieve(FullName=ref_result[1]))
 
-                                try:
-                                    if 'QBXML' in res:
-                                        if 'QBXMLMsgsRs' in res['QBXML']:
-                                            list_id = res['QBXML']['QBXMLMsgsRs']\
-                                                ['{}QueryRs'.format(transaction_name)]['{}Ret'.format(transaction_name)]['ListID']
+                                    try:
+                                        if 'QBXML' in res:
+                                            if 'QBXMLMsgsRs' in res['QBXML']:
+                                                list_id = res['QBXML']['QBXMLMsgsRs'] \
+                                                    ['{}QueryRs'.format(transaction_name)][
+                                                    '{}Ret'.format(transaction_name)]['ListID']
 
-                                            replace_ref(ref, list_id, xml_files)
-                                except Exception as e:
-                                    print e
-                                    print res
+                                                replace_ref(ref, list_id, xml_files)
+                                    except Exception as e:
+                                        print e
+                                        print res
 
                         else:
-                            print status, severity, message
-                        if int(status) ==3100 or int(status) ==3100:
-                            pass
+                            print res
+
                 else:
                     log_str = get_log(log_file)
                     print log_str
                     print resource_object.qbxml
+                    # with open('logfile.txt', 'a+') as f :
+                    #     f.write(log_str)
                     print 'sleeping so you can debug... '
                     # sleep(15)
+print len(xml_files)
+for xml_file in xml_files:
+    print 'ay'
+
+    process_xml_file(xml_file)

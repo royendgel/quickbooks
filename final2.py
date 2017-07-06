@@ -6,7 +6,13 @@ from quickbooks import Customer
 from quickbooks.objects_models import CustomerAddModel
 import xmltodict
 pt = os.path.abspath(os.path.join("..", 'client files', 'qbfile', 'Exploitatie 1998 tm 2014.QBW'))
+pt= company_target = os.path.abspath(os.path.join("..", 'client files', 'qbfile', 'qb981413_2.QBW'))
 print pt
+
+"""Say something file
+Why did I make this final2.py , what is the porpuse of this one?
+Don't use this file for now.
+"""
 
 class MergeCompanyFile:
     def __init__(self, source, target):

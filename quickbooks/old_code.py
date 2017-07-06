@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 
 import xmltodict
 
-from quickbooks.objects_models import BillModel, CustomerModel
+# from quickbooks.objects_models import BillModel, CustomerModel
 from request_creator import RequestCreator
 
 logging.getLogger(__name__)

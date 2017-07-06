@@ -1,7 +1,7 @@
 try:
     from old_code import Quickbooks
-except:
-    pass
+except Exception as e:
+    print e
 
 from resource import UpdateMixin, RetriveMixin, Resource, DeleteMixin, Account, AccountTaxLineInfo, AgingReport, \
     ARRefundCreditCard, BarCode, Bill, BillingRate, BillPaymentCheck, BillPaymentCreditCard, BillToPay, \

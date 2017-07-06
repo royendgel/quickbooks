@@ -130,3 +130,14 @@ make sure the quickbooks company file path is correct.
 
 BoolType is 1 for true, 0 for false or lowercase str true or false
 
+
+Explanation about all this files :
+Use script.py and final.py
+script4 and final are supposed to be the same thing , use final.py
+need to refactor this files and remove unused ones.
+that are the correct files.
+
+script will
+
+
+
